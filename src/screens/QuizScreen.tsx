@@ -28,17 +28,29 @@ function buildQuestions(
     ? categories.find(c => c.id === catId)!.words.map(w => ({
         word: w,
         catName: categories.find(c => c.id === catId)!.name,
+        catWords: categories.find(c => c.id === catId)!.words,
       }))
-    : categories.flatMap(c => c.words.map(w => ({ word: w, catName: c.name })));
+    : categories.flatMap(c => c.words.map(w => ({ word: w, catName: c.name, catWords: c.words })));
 
   const shuffled = [...pool].sort(() => Math.random() - 0.5).slice(0, count);
 
   return shuffled.map(item => {
     const correct = item.word.russian;
-    const wrongs = allRussian
+    const sameCatWrongs = item.catWords
+      .map(w => w.russian)
       .filter(r => r !== correct)
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 3);
+      .sort(() => Math.random() - 0.5);
+
+    let wrongs: string[];
+    if (sameCatWrongs.length >= 3) {
+      wrongs = sameCatWrongs.slice(0, 3);
+    } else {
+      const otherWrongs = allRussian
+        .filter(r => r !== correct && !sameCatWrongs.includes(r))
+        .sort(() => Math.random() - 0.5);
+      wrongs = [...sameCatWrongs, ...otherWrongs.slice(0, 3 - sameCatWrongs.length)];
+    }
+
     const options = [...wrongs, correct].sort(() => Math.random() - 0.5);
     return {
       word: item.word,
