@@ -48,57 +48,40 @@ export default function StatsScreen({ categories, totalWords, storage, onNavigat
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
           </button>
-          <h1 className="text-white text-xl font-bold">Statistics</h1>
+          <h1 className="text-white text-xl font-bold">Статистика</h1>
         </div>
 
         {/* Top stats */}
         <div className="grid grid-cols-3 gap-3 mb-6">
-          <StatCard
-            value={totalKnown.toString()}
-            label="Words learned"
-            icon="📚"
-            color="from-blue-700 to-blue-900"
-          />
-          <StatCard
-            value={`${streakDays}d`}
-            label="Current streak"
-            icon="🔥"
-            color="from-orange-700 to-orange-900"
-          />
-          <StatCard
-            value={`${totalPercent}%`}
-            label="Completion"
-            icon="🎯"
-            color="from-purple-700 to-purple-900"
-          />
+          <StatCard value={totalKnown.toString()} label="Изучено слов" icon="📚" color="from-blue-700 to-blue-900" />
+          <StatCard value={`${streakDays}d`} label="Серия дней" icon="🔥" color="from-orange-700 to-orange-900" />
+          <StatCard value={`${totalPercent}%`} label="Выполнено" icon="🎯" color="from-purple-700 to-purple-900" />
         </div>
 
         {/* Category breakdown */}
         <div className="bg-white/5 rounded-2xl p-4 border border-white/8 mb-4">
-          <h3 className="text-white/70 text-sm font-semibold mb-3">Category Status</h3>
+          <h3 className="text-white/70 text-sm font-semibold mb-3">Статус категорий</h3>
           <div className="space-y-2">
             <div className="flex justify-between items-center">
               <span className="text-white/60 text-sm flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-green-400 inline-block" />
-                Completed
+                Завершено
               </span>
               <span className="text-white font-semibold">{completed.length}</span>
             </div>
             <div className="flex justify-between items-center">
               <span className="text-white/60 text-sm flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-yellow-400 inline-block" />
-                In progress
+                В процессе
               </span>
               <span className="text-white font-semibold">{inProgress.length}</span>
             </div>
             <div className="flex justify-between items-center">
               <span className="text-white/60 text-sm flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-white/20 inline-block" />
-                Not started
+                Не начато
               </span>
-              <span className="text-white font-semibold">
-                {categories.length - completed.length - inProgress.length}
-              </span>
+              <span className="text-white font-semibold">{categories.length - completed.length - inProgress.length}</span>
             </div>
           </div>
         </div>
@@ -107,7 +90,7 @@ export default function StatsScreen({ categories, totalWords, storage, onNavigat
         {hardWords.length > 0 && (
           <div className="bg-white/5 rounded-2xl p-4 border border-white/8">
             <h3 className="text-white/70 text-sm font-semibold mb-3 flex items-center gap-2">
-              <span>⚠️</span> Most difficult words
+              <span>⚠️</span> Сложные слова
             </h3>
             <div className="space-y-2">
               {hardWords.map((item, i) => (
@@ -131,8 +114,8 @@ export default function StatsScreen({ categories, totalWords, storage, onNavigat
         {hardWords.length === 0 && (
           <div className="text-center py-8 text-white/30">
             <div className="text-4xl mb-2">🌟</div>
-            <p className="text-sm">No difficult words yet!</p>
-            <p className="text-xs mt-1">Words marked wrong 3+ times will appear here.</p>
+            <p className="text-sm">Сложных слов нет!</p>
+            <p className="text-xs mt-1">Слова с 3+ ошибками появятся здесь.</p>
           </div>
         )}
       </div>

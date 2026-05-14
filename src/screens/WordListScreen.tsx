@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Category, Progress, Screen, WordStatus } from '../types';
 
 interface Props {
@@ -62,6 +62,11 @@ export default function WordListScreen({ categories, progress, onNavigate }: Pro
     base.forEach(w => c[w.status]++);
     return c;
   }, [allWords, catFilter]);
+
+  const [visibleCount, setVisibleCount] = useState(100);
+  useEffect(() => { setVisibleCount(100); }, [search, catFilter, statusFilter]);
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = filtered.length > visibleCount;
 
   return (
     <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #0f2340 0%, #1A365D 100%)' }}>
@@ -164,7 +169,7 @@ export default function WordListScreen({ categories, progress, onNavigate }: Pro
           </div>
         ) : (
           <div className="space-y-1">
-            {filtered.map(item => (
+            {visible.map(item => (
               <div
                 key={`${item.catId}-${item.idx}`}
                 className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/5 hover:bg-white/8 transition-colors"
@@ -177,14 +182,19 @@ export default function WordListScreen({ categories, progress, onNavigate }: Pro
                   </div>
                   <div className="text-white/60 text-sm mt-0.5">{item.word.russian}</div>
                 </div>
-                <span
-                  className="text-white/25 text-xs flex-shrink-0 text-right truncate"
-                  style={{ maxWidth: 72 }}
-                >
+                <span className="text-white/25 text-xs flex-shrink-0 text-right truncate" style={{ maxWidth: 72 }}>
                   {item.catName.replace(/^\d+[A-Za-z]* — /, '').slice(0, 14)}
                 </span>
               </div>
             ))}
+            {hasMore && (
+              <button
+                onClick={() => setVisibleCount(c => c + 100)}
+                className="w-full py-3 rounded-xl bg-white/5 hover:bg-white/10 text-white/50 hover:text-white/70 text-sm transition-colors mt-2"
+              >
+                Показать ещё {Math.min(100, filtered.length - visibleCount)} из {filtered.length - visibleCount}
+              </button>
+            )}
           </div>
         )}
       </div>

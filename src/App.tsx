@@ -8,13 +8,14 @@ import ResultsScreen from './screens/ResultsScreen';
 import StatsScreen from './screens/StatsScreen';
 import WordListScreen from './screens/WordListScreen';
 import QuizScreen from './screens/QuizScreen';
+import SRSScreen from './screens/SRSScreen';
 import { VocabularyData } from './types';
 
 const vocab = vocabularyData as VocabularyData;
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>({ type: 'home' });
-  const { storage, updateProgress, resetCategory } = useStorage();
+  const { storage, updateProgress, reviewSRS, resetCategory } = useStorage();
 
   const navigate = (s: Screen) => setScreen(s);
 
@@ -24,6 +25,7 @@ export default function App() {
         categories={vocab.categories}
         totalWords={vocab.meta.total_words}
         progress={storage.progress}
+        srsData={storage.srs}
         onNavigate={navigate}
       />
     );
@@ -79,6 +81,17 @@ export default function App() {
       <QuizScreen
         categories={vocab.categories}
         progress={storage.progress}
+        onNavigate={navigate}
+      />
+    );
+  }
+
+  if (screen.type === 'srs') {
+    return (
+      <SRSScreen
+        categories={vocab.categories}
+        srsData={storage.srs}
+        onReview={reviewSRS}
         onNavigate={navigate}
       />
     );

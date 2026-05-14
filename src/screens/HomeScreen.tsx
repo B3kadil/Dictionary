@@ -1,6 +1,7 @@
-import { useState } from 'react';
-import { Category, Progress, Screen } from '../types';
+import { useState, useMemo } from 'react';
+import { Category, Progress, Screen, SRSData } from '../types';
 import { getTotalKnown } from '../utils/progress';
+import { countDue } from '../utils/srs';
 import CategoryCard from '../components/CategoryCard';
 import ProgressBar from '../components/ProgressBar';
 
@@ -8,13 +9,15 @@ interface Props {
   categories: Category[];
   totalWords: number;
   progress: Progress;
+  srsData: SRSData;
   onNavigate: (screen: Screen) => void;
 }
 
-export default function HomeScreen({ categories, totalWords, progress, onNavigate }: Props) {
+export default function HomeScreen({ categories, totalWords, progress, srsData, onNavigate }: Props) {
   const [search, setSearch] = useState('');
   const totalKnown = getTotalKnown(categories, progress);
   const totalPercent = totalWords === 0 ? 0 : Math.round((totalKnown / totalWords) * 100);
+  const dueCount = useMemo(() => countDue(srsData), [srsData]);
 
   const filtered = search.trim()
     ? categories.filter(c => c.name.toLowerCase().includes(search.toLowerCase()))
@@ -28,7 +31,7 @@ export default function HomeScreen({ categories, totalWords, progress, onNavigat
           <div className="flex items-center justify-between mb-4">
             <div>
               <h1 className="text-2xl font-bold text-white tracking-tight">
-                My English Dictionary
+                Мой словарь
               </h1>
               <p className="text-white/50 text-sm mt-0.5">English File 4th Edition</p>
             </div>
@@ -39,7 +42,7 @@ export default function HomeScreen({ categories, totalWords, progress, onNavigat
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
-              Stats
+              Статистика
             </button>
           </div>
 
@@ -66,14 +69,36 @@ export default function HomeScreen({ categories, totalWords, progress, onNavigat
             </button>
           </div>
 
+          {/* SRS widget */}
+          {dueCount > 0 && (
+            <button
+              onClick={() => onNavigate({ type: 'srs' })}
+              className="w-full flex items-center justify-between px-4 py-3 rounded-2xl mb-4 transition-colors border border-amber-500/25 hover:border-amber-500/40"
+              style={{ background: 'rgba(245,158,11,0.12)' }}
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">📅</span>
+                <div className="text-left">
+                  <div className="text-white font-semibold text-sm">Пора повторить</div>
+                  <div className="text-amber-400/80 text-xs">{dueCount} слов ждут повторения</div>
+                </div>
+              </div>
+              <svg className="w-4 h-4 text-amber-400/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          )}
+
           {/* Overall progress */}
           <div className="bg-white/8 rounded-2xl p-4 border border-white/10 mb-4">
             <div className="flex justify-between items-baseline mb-2">
-              <span className="text-white/70 text-sm">Overall progress</span>
-              <span className="text-white font-bold text-lg">{totalKnown} <span className="text-white/50 font-normal text-sm">/ {totalWords}</span></span>
+              <span className="text-white/70 text-sm">Общий прогресс</span>
+              <span className="text-white font-bold text-lg">
+                {totalKnown} <span className="text-white/50 font-normal text-sm">/ {totalWords}</span>
+              </span>
             </div>
             <ProgressBar percent={totalPercent} height={8} />
-            <p className="text-white/40 text-xs mt-2">{totalPercent}% of all vocabulary learned</p>
+            <p className="text-white/40 text-xs mt-2">{totalPercent}% словарного запаса изучено</p>
           </div>
 
           {/* Search */}
@@ -83,7 +108,7 @@ export default function HomeScreen({ categories, totalWords, progress, onNavigat
             </svg>
             <input
               type="text"
-              placeholder="Search categories..."
+              placeholder="Поиск категорий..."
               value={search}
               onChange={e => setSearch(e.target.value)}
               className="w-full pl-9 pr-4 py-2.5 rounded-xl bg-white/10 border border-white/10 text-white placeholder-white/30 text-sm focus:outline-none focus:border-blue-400/50 focus:bg-white/15 transition-all"
@@ -96,8 +121,8 @@ export default function HomeScreen({ categories, totalWords, progress, onNavigat
       <div className="px-4 pb-8 max-w-2xl mx-auto">
         {filtered.length === 0 ? (
           <div className="text-center py-16 text-white/40">
-            <p className="text-lg">No categories found</p>
-            <p className="text-sm mt-1">Try a different search</p>
+            <p className="text-lg">Категории не найдены</p>
+            <p className="text-sm mt-1">Попробуйте другой поиск</p>
           </div>
         ) : (
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
@@ -110,12 +135,13 @@ export default function HomeScreen({ categories, totalWords, progress, onNavigat
                 onClick={() =>
                   onNavigate({
                     type: 'flashcard',
-                    session: {
-                      categoryId: cat.id,
-                      studyUnknownOnly: false,
-                      shuffled: false,
-                      reversed: false,
-                    },
+                    session: { categoryId: cat.id, studyUnknownOnly: false, shuffled: false, reversed: false },
+                  })
+                }
+                onBrowse={() =>
+                  onNavigate({
+                    type: 'flashcard',
+                    session: { categoryId: cat.id, studyUnknownOnly: false, shuffled: false, reversed: false, browse: true },
                   })
                 }
               />

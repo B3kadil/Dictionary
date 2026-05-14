@@ -44,7 +44,7 @@ export default function ResultsScreen({ categoryId, results, categories, onNavig
             {perfect ? '🎉' : percent >= 70 ? '💪' : percent >= 40 ? '📚' : '🌱'}
           </div>
           <h2 className="text-white text-2xl font-bold mb-1">
-            {perfect ? 'Perfect score!' : 'Round complete!'}
+            {perfect ? 'Идеальный результат!' : 'Раунд завершён!'}
           </h2>
           <p className="text-white/60 text-sm mb-6">{category.name}</p>
 
@@ -52,7 +52,7 @@ export default function ResultsScreen({ categoryId, results, categories, onNavig
             <span className="text-white text-6xl font-bold">{known.length}</span>
             <span className="text-white/50 text-2xl mb-2">/ {total}</span>
           </div>
-          <p className="text-white/60 text-sm">words you knew</p>
+          <p className="text-white/60 text-sm">слов ты знал</p>
 
           {/* Mini progress bar */}
           <div className="mt-5 w-full h-2.5 rounded-full bg-white/10 overflow-hidden">
@@ -72,7 +72,7 @@ export default function ResultsScreen({ categoryId, results, categories, onNavig
           <div className={`w-full mb-6 transition-all duration-500 delay-200 ${show ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <h3 className="text-white/70 text-sm font-semibold mb-3 flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-red-400 inline-block" />
-              Words to review ({unknown.length})
+              Слова для повторения ({unknown.length})
             </h3>
             <div className="space-y-2 max-h-52 overflow-y-auto">
               {unknown.map(r => (
@@ -109,7 +109,7 @@ export default function ResultsScreen({ categoryId, results, categories, onNavig
               className="w-full py-3.5 rounded-2xl font-semibold text-white transition-all active:scale-95 hover:opacity-90"
               style={{ background: 'linear-gradient(135deg, #7c3aed, #6d28d9)' }}
             >
-              Study unknown words ({unknown.length})
+              Учить незнакомые слова ({unknown.length})
             </button>
           )}
 
@@ -118,25 +118,20 @@ export default function ResultsScreen({ categoryId, results, categories, onNavig
               onReset(categoryId);
               onNavigate({
                 type: 'flashcard',
-                session: {
-                  categoryId,
-                  studyUnknownOnly: false,
-                  shuffled: false,
-                  reversed: false,
-                },
+                session: { categoryId, studyUnknownOnly: false, shuffled: false, reversed: false },
               });
             }}
             className="w-full py-3.5 rounded-2xl font-semibold text-white transition-all active:scale-95 hover:opacity-90"
             style={{ background: 'linear-gradient(135deg, #1e4d8c, #1e3a6e)' }}
           >
-            Try again from start
+            Сначала
           </button>
 
           <button
             onClick={() => onNavigate({ type: 'home' })}
             className="w-full py-3.5 rounded-2xl font-semibold text-white/80 bg-white/8 hover:bg-white/12 transition-all active:scale-95"
           >
-            Back to categories
+            К категориям
           </button>
         </div>
       </div>

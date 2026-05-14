@@ -38,6 +38,7 @@ export interface StudySession {
   studyUnknownOnly: boolean;
   shuffled: boolean;
   reversed: boolean;
+  browse?: boolean;
 }
 
 export type Screen =
@@ -46,7 +47,8 @@ export type Screen =
   | { type: 'results'; categoryId: number; results: SessionResult[] }
   | { type: 'stats' }
   | { type: 'wordlist' }
-  | { type: 'quiz' };
+  | { type: 'quiz' }
+  | { type: 'srs' };
 
 export interface SessionResult {
   wordIndex: number;
@@ -55,13 +57,25 @@ export interface SessionResult {
 }
 
 export interface DifficultyRecord {
-  [wordKey: string]: number; // key = "catId-wordIndex", value = wrong count
+  [wordKey: string]: number;
+}
+
+export interface SRSCard {
+  interval: number;
+  repetitions: number;
+  easeFactor: number;
+  nextReview: string; // YYYY-MM-DD
+}
+
+export interface SRSData {
+  [key: string]: SRSCard; // "catId-wordIndex"
 }
 
 export interface AppStorage {
   progress: Progress;
   difficulty: DifficultyRecord;
-  lastStudied: string | null; // ISO date string
+  lastStudied: string | null;
   streakDays: number;
   streakLastDate: string | null;
+  srs: SRSData;
 }
