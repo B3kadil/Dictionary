@@ -44,7 +44,9 @@ export type Screen =
   | { type: 'home' }
   | { type: 'flashcard'; session: StudySession }
   | { type: 'results'; categoryId: number; results: SessionResult[] }
-  | { type: 'stats' };
+  | { type: 'stats' }
+  | { type: 'wordlist' }
+  | { type: 'quiz' };
 
 export interface SessionResult {
   wordIndex: number;

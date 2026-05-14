@@ -6,6 +6,8 @@ import HomeScreen from './screens/HomeScreen';
 import FlashcardScreen from './screens/FlashcardScreen';
 import ResultsScreen from './screens/ResultsScreen';
 import StatsScreen from './screens/StatsScreen';
+import WordListScreen from './screens/WordListScreen';
+import QuizScreen from './screens/QuizScreen';
 import { VocabularyData } from './types';
 
 const vocab = vocabularyData as VocabularyData;
@@ -57,6 +59,26 @@ export default function App() {
         categories={vocab.categories}
         totalWords={vocab.meta.total_words}
         storage={storage}
+        onNavigate={navigate}
+      />
+    );
+  }
+
+  if (screen.type === 'wordlist') {
+    return (
+      <WordListScreen
+        categories={vocab.categories}
+        progress={storage.progress}
+        onNavigate={navigate}
+      />
+    );
+  }
+
+  if (screen.type === 'quiz') {
+    return (
+      <QuizScreen
+        categories={vocab.categories}
+        progress={storage.progress}
         onNavigate={navigate}
       />
     );
