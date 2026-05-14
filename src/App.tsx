@@ -1,26 +1,66 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import { Screen } from './types';
+import { useStorage } from './hooks/useStorage';
+import vocabularyData from './data/vocabulary.json';
+import HomeScreen from './screens/HomeScreen';
+import FlashcardScreen from './screens/FlashcardScreen';
+import ResultsScreen from './screens/ResultsScreen';
+import StatsScreen from './screens/StatsScreen';
+import { VocabularyData } from './types';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const vocab = vocabularyData as VocabularyData;
+
+export default function App() {
+  const [screen, setScreen] = useState<Screen>({ type: 'home' });
+  const { storage, updateProgress, resetCategory } = useStorage();
+
+  const navigate = (s: Screen) => setScreen(s);
+
+  if (screen.type === 'home') {
+    return (
+      <HomeScreen
+        categories={vocab.categories}
+        totalWords={vocab.meta.total_words}
+        progress={storage.progress}
+        onNavigate={navigate}
+      />
+    );
+  }
+
+  if (screen.type === 'flashcard') {
+    return (
+      <FlashcardScreen
+        session={screen.session}
+        categories={vocab.categories}
+        progress={storage.progress}
+        onWordResult={updateProgress}
+        onNavigate={navigate}
+      />
+    );
+  }
+
+  if (screen.type === 'results') {
+    return (
+      <ResultsScreen
+        categoryId={screen.categoryId}
+        results={screen.results}
+        categories={vocab.categories}
+        onNavigate={navigate}
+        onReset={resetCategory}
+      />
+    );
+  }
+
+  if (screen.type === 'stats') {
+    return (
+      <StatsScreen
+        categories={vocab.categories}
+        totalWords={vocab.meta.total_words}
+        storage={storage}
+        onNavigate={navigate}
+      />
+    );
+  }
+
+  return null;
 }
-
-export default App;

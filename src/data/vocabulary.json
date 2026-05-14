@@ -1,0 +1,6702 @@
+{
+  "meta": {
+    "title": "My English Dictionary",
+    "subtitle": "English File 4th Edition Elementary",
+    "author": "Bekadil",
+    "total_words": 1247,
+    "total_categories": 76
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "1A — Приветствия",
+      "words": [
+        {
+          "english": "hello",
+          "transcription": "/həˈləʊ/",
+          "russian": "привет"
+        },
+        {
+          "english": "goodbye",
+          "transcription": "/ˌɡʊdˈbaɪ/",
+          "russian": "до свидания"
+        },
+        {
+          "english": "good morning",
+          "transcription": "/ɡʊd ˈmɔːnɪŋ/",
+          "russian": "доброе утро"
+        },
+        {
+          "english": "good afternoon",
+          "transcription": "/ɡʊd ˌɑːftəˈnuːn/",
+          "russian": "добрый день"
+        },
+        {
+          "english": "good evening",
+          "transcription": "/ɡʊd ˈiːvnɪŋ/",
+          "russian": "добрый вечер"
+        },
+        {
+          "english": "good night",
+          "transcription": "/ɡʊd naɪt/",
+          "russian": "спокойной ночи"
+        },
+        {
+          "english": "please",
+          "transcription": "/pliːz/",
+          "russian": "пожалуйста"
+        },
+        {
+          "english": "thank you",
+          "transcription": "/ˈθæŋk juː/",
+          "russian": "спасибо"
+        },
+        {
+          "english": "sorry",
+          "transcription": "/ˈsɒri/",
+          "russian": "извините / прости"
+        },
+        {
+          "english": "excuse me",
+          "transcription": "/ɪkˈskjuːz miː/",
+          "russian": "извините (обращение)"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "1A — Дни недели",
+      "words": [
+        {
+          "english": "Monday",
+          "transcription": "/ˈmʌndeɪ/",
+          "russian": "понедельник"
+        },
+        {
+          "english": "Tuesday",
+          "transcription": "/ˈtjuːzdeɪ/",
+          "russian": "вторник"
+        },
+        {
+          "english": "Wednesday",
+          "transcription": "/ˈwenzdeɪ/",
+          "russian": "среда"
+        },
+        {
+          "english": "Thursday",
+          "transcription": "/ˈθɜːzdeɪ/",
+          "russian": "четверг"
+        },
+        {
+          "english": "Friday",
+          "transcription": "/ˈfraɪdeɪ/",
+          "russian": "пятница"
+        },
+        {
+          "english": "Saturday",
+          "transcription": "/ˈsætədeɪ/",
+          "russian": "суббота"
+        },
+        {
+          "english": "Sunday",
+          "transcription": "/ˈsʌndeɪ/",
+          "russian": "воскресенье"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "1A — Время",
+      "words": [
+        {
+          "english": "today",
+          "transcription": "/təˈdeɪ/",
+          "russian": "сегодня"
+        },
+        {
+          "english": "tomorrow",
+          "transcription": "/təˈmɒrəʊ/",
+          "russian": "завтра"
+        },
+        {
+          "english": "yesterday",
+          "transcription": "/ˈjestədeɪ/",
+          "russian": "вчера"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "1B — Страны",
+      "words": [
+        {
+          "english": "Kazakhstan",
+          "transcription": "/ˌkæzækˈstɑːn/",
+          "russian": "Казахстан"
+        },
+        {
+          "english": "Great Britain",
+          "transcription": "/ɡreɪt ˈbrɪtn/",
+          "russian": "Великобритания"
+        },
+        {
+          "english": "the USA",
+          "transcription": "/ðə juː es ˈeɪ/",
+          "russian": "США"
+        },
+        {
+          "english": "Russia",
+          "transcription": "/ˈrʌʃə/",
+          "russian": "Россия"
+        },
+        {
+          "english": "China",
+          "transcription": "/ˈtʃaɪnə/",
+          "russian": "Китай"
+        },
+        {
+          "english": "Germany",
+          "transcription": "/ˈdʒɜːməni/",
+          "russian": "Германия"
+        },
+        {
+          "english": "France",
+          "transcription": "/frɑːns/",
+          "russian": "Франция"
+        },
+        {
+          "english": "Spain",
+          "transcription": "/speɪn/",
+          "russian": "Испания"
+        },
+        {
+          "english": "Italy",
+          "transcription": "/ˈɪtəli/",
+          "russian": "Италия"
+        },
+        {
+          "english": "Japan",
+          "transcription": "/dʒəˈpæn/",
+          "russian": "Япония"
+        },
+        {
+          "english": "Turkey",
+          "transcription": "/ˈtɜːki/",
+          "russian": "Турция"
+        },
+        {
+          "english": "Mexico",
+          "transcription": "/ˈmeksɪkəʊ/",
+          "russian": "Мексика"
+        },
+        {
+          "english": "Brazil",
+          "transcription": "/brəˈzɪl/",
+          "russian": "Бразилия"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "1B — Национальности",
+      "words": [
+        {
+          "english": "nationality",
+          "transcription": "/ˌnæʃəˈnæləti/",
+          "russian": "национальность"
+        },
+        {
+          "english": "Kazakhstani",
+          "transcription": "/ˌkæzækˈstɑːni/",
+          "russian": "казахстанский"
+        },
+        {
+          "english": "British",
+          "transcription": "/ˈbrɪtɪʃ/",
+          "russian": "британский"
+        },
+        {
+          "english": "American",
+          "transcription": "/əˈmerɪkən/",
+          "russian": "американский"
+        },
+        {
+          "english": "Russian",
+          "transcription": "/ˈrʌʃn/",
+          "russian": "русский"
+        },
+        {
+          "english": "Chinese",
+          "transcription": "/ˌtʃaɪˈniːz/",
+          "russian": "китайский"
+        },
+        {
+          "english": "German",
+          "transcription": "/ˈdʒɜːmən/",
+          "russian": "немецкий"
+        },
+        {
+          "english": "French",
+          "transcription": "/frentʃ/",
+          "russian": "французский"
+        },
+        {
+          "english": "Spanish",
+          "transcription": "/ˈspænɪʃ/",
+          "russian": "испанский"
+        },
+        {
+          "english": "Italian",
+          "transcription": "/ɪˈtæliən/",
+          "russian": "итальянский"
+        },
+        {
+          "english": "Japanese",
+          "transcription": "/ˌdʒæpəˈniːz/",
+          "russian": "японский"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "1B — География",
+      "words": [
+        {
+          "english": "continent",
+          "transcription": "/ˈkɒntɪnənt/",
+          "russian": "континент"
+        },
+        {
+          "english": "Asia",
+          "transcription": "/ˈeɪʒə/",
+          "russian": "Азия"
+        },
+        {
+          "english": "Europe",
+          "transcription": "/ˈjʊərəp/",
+          "russian": "Европа"
+        },
+        {
+          "english": "Africa",
+          "transcription": "/ˈæfrɪkə/",
+          "russian": "Африка"
+        },
+        {
+          "english": "America",
+          "transcription": "/əˈmerɪkə/",
+          "russian": "Америка"
+        },
+        {
+          "english": "Australia",
+          "transcription": "/ɒˈstreɪliə/",
+          "russian": "Австралия"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "1C — Притяжательные",
+      "words": [
+        {
+          "english": "my",
+          "transcription": "/maɪ/",
+          "russian": "мой / моя / моё"
+        },
+        {
+          "english": "your",
+          "transcription": "/jɔː/",
+          "russian": "твой / ваш"
+        },
+        {
+          "english": "his",
+          "transcription": "/hɪz/",
+          "russian": "его"
+        },
+        {
+          "english": "her",
+          "transcription": "/hɜː/",
+          "russian": "её"
+        },
+        {
+          "english": "its",
+          "transcription": "/ɪts/",
+          "russian": "его / её (вещь)"
+        },
+        {
+          "english": "our",
+          "transcription": "/aʊə/",
+          "russian": "наш"
+        },
+        {
+          "english": "their",
+          "transcription": "/ðeə/",
+          "russian": "их"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "1C — Класс",
+      "words": [
+        {
+          "english": "email",
+          "transcription": "/ˈiːmeɪl/",
+          "russian": "электронная почта"
+        },
+        {
+          "english": "phone number",
+          "transcription": "/fəʊn ˈnʌmbə/",
+          "russian": "номер телефона"
+        },
+        {
+          "english": "address",
+          "transcription": "/əˈdres/",
+          "russian": "адрес"
+        },
+        {
+          "english": "book",
+          "transcription": "/bʊk/",
+          "russian": "книга"
+        },
+        {
+          "english": "pen",
+          "transcription": "/pen/",
+          "russian": "ручка"
+        },
+        {
+          "english": "pencil",
+          "transcription": "/ˈpensl/",
+          "russian": "карандаш"
+        },
+        {
+          "english": "dictionary",
+          "transcription": "/ˈdɪkʃənri/",
+          "russian": "словарь"
+        },
+        {
+          "english": "desk",
+          "transcription": "/desk/",
+          "russian": "стол (письменный)"
+        },
+        {
+          "english": "chair",
+          "transcription": "/tʃeə/",
+          "russian": "стул"
+        },
+        {
+          "english": "board",
+          "transcription": "/bɔːd/",
+          "russian": "доска"
+        },
+        {
+          "english": "window",
+          "transcription": "/ˈwɪndəʊ/",
+          "russian": "окно"
+        },
+        {
+          "english": "door",
+          "transcription": "/dɔː/",
+          "russian": "дверь"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "2A — Прилагательные",
+      "words": [
+        {
+          "english": "tidy",
+          "transcription": "/ˈtaɪdi/",
+          "russian": "аккуратный"
+        },
+        {
+          "english": "untidy",
+          "transcription": "/ʌnˈtaɪdi/",
+          "russian": "неаккуратный"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "2A — Предметы",
+      "words": [
+        {
+          "english": "bag",
+          "transcription": "/bæɡ/",
+          "russian": "сумка"
+        },
+        {
+          "english": "key",
+          "transcription": "/kiː/",
+          "russian": "ключ"
+        },
+        {
+          "english": "phone",
+          "transcription": "/fəʊn/",
+          "russian": "телефон"
+        },
+        {
+          "english": "laptop",
+          "transcription": "/ˈlæptɒp/",
+          "russian": "ноутбук"
+        },
+        {
+          "english": "charger",
+          "transcription": "/ˈtʃɑːdʒə/",
+          "russian": "зарядное устройство"
+        },
+        {
+          "english": "wallet",
+          "transcription": "/ˈwɒlɪt/",
+          "russian": "кошелёк"
+        },
+        {
+          "english": "notebook",
+          "transcription": "/ˈnəʊtbʊk/",
+          "russian": "тетрадь"
+        },
+        {
+          "english": "umbrella",
+          "transcription": "/ʌmˈbrelə/",
+          "russian": "зонт"
+        },
+        {
+          "english": "scissors",
+          "transcription": "/ˈsɪzəz/",
+          "russian": "ножницы"
+        },
+        {
+          "english": "coin",
+          "transcription": "/kɔɪn/",
+          "russian": "монета"
+        },
+        {
+          "english": "credit card",
+          "transcription": "/ˈkredɪt kɑːd/",
+          "russian": "кредитная карта"
+        },
+        {
+          "english": "identity card",
+          "transcription": "/aɪˈdentɪti kɑːd/",
+          "russian": "удостоверение личности"
+        },
+        {
+          "english": "ticket",
+          "transcription": "/ˈtɪkɪt/",
+          "russian": "билет"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "2A — Предлоги",
+      "words": [
+        {
+          "english": "in",
+          "transcription": "/ɪn/",
+          "russian": "в (внутри)"
+        },
+        {
+          "english": "on",
+          "transcription": "/ɒn/",
+          "russian": "на (поверхности)"
+        },
+        {
+          "english": "under",
+          "transcription": "/ˈʌndə/",
+          "russian": "под"
+        },
+        {
+          "english": "next to",
+          "transcription": "/nekst tuː/",
+          "russian": "рядом с"
+        },
+        {
+          "english": "between",
+          "transcription": "/bɪˈtwiːn/",
+          "russian": "между"
+        },
+        {
+          "english": "behind",
+          "transcription": "/bɪˈhaɪnd/",
+          "russian": "за / позади"
+        },
+        {
+          "english": "in front of",
+          "transcription": "/ɪn frʌnt əv/",
+          "russian": "перед"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "2B — Цвета",
+      "words": [
+        {
+          "english": "white",
+          "transcription": "/waɪt/",
+          "russian": "белый"
+        },
+        {
+          "english": "black",
+          "transcription": "/blæk/",
+          "russian": "чёрный"
+        },
+        {
+          "english": "red",
+          "transcription": "/red/",
+          "russian": "красный"
+        },
+        {
+          "english": "blue",
+          "transcription": "/bluː/",
+          "russian": "синий / голубой"
+        },
+        {
+          "english": "green",
+          "transcription": "/ɡriːn/",
+          "russian": "зелёный"
+        },
+        {
+          "english": "yellow",
+          "transcription": "/ˈjeləʊ/",
+          "russian": "жёлтый"
+        },
+        {
+          "english": "orange",
+          "transcription": "/ˈɒrɪndʒ/",
+          "russian": "оранжевый"
+        },
+        {
+          "english": "pink",
+          "transcription": "/pɪŋk/",
+          "russian": "розовый"
+        },
+        {
+          "english": "brown",
+          "transcription": "/braʊn/",
+          "russian": "коричневый"
+        },
+        {
+          "english": "grey",
+          "transcription": "/ɡreɪ/",
+          "russian": "серый"
+        },
+        {
+          "english": "purple",
+          "transcription": "/ˈpɜːpl/",
+          "russian": "фиолетовый"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "2B — Прилагательные",
+      "words": [
+        {
+          "english": "big",
+          "transcription": "/bɪɡ/",
+          "russian": "большой"
+        },
+        {
+          "english": "small",
+          "transcription": "/smɔːl/",
+          "russian": "маленький"
+        },
+        {
+          "english": "old",
+          "transcription": "/əʊld/",
+          "russian": "старый"
+        },
+        {
+          "english": "new",
+          "transcription": "/njuː/",
+          "russian": "новый"
+        },
+        {
+          "english": "expensive",
+          "transcription": "/ɪkˈspensɪv/",
+          "russian": "дорогой"
+        },
+        {
+          "english": "cheap",
+          "transcription": "/tʃiːp/",
+          "russian": "дешёвый"
+        },
+        {
+          "english": "beautiful",
+          "transcription": "/ˈbjuːtɪfl/",
+          "russian": "красивый"
+        },
+        {
+          "english": "ugly",
+          "transcription": "/ˈʌɡli/",
+          "russian": "некрасивый"
+        },
+        {
+          "english": "fast",
+          "transcription": "/fɑːst/",
+          "russian": "быстрый"
+        },
+        {
+          "english": "slow",
+          "transcription": "/sləʊ/",
+          "russian": "медленный"
+        },
+        {
+          "english": "long",
+          "transcription": "/lɒŋ/",
+          "russian": "длинный"
+        },
+        {
+          "english": "short",
+          "transcription": "/ʃɔːt/",
+          "russian": "короткий"
+        },
+        {
+          "english": "tall",
+          "transcription": "/tɔːl/",
+          "russian": "высокий (о человеке)"
+        },
+        {
+          "english": "high",
+          "transcription": "/haɪ/",
+          "russian": "высокий (о здании)"
+        },
+        {
+          "english": "low",
+          "transcription": "/ləʊ/",
+          "russian": "низкий"
+        },
+        {
+          "english": "heavy",
+          "transcription": "/ˈhevi/",
+          "russian": "тяжёлый"
+        },
+        {
+          "english": "light",
+          "transcription": "/laɪt/",
+          "russian": "лёгкий"
+        },
+        {
+          "english": "clean",
+          "transcription": "/kliːn/",
+          "russian": "чистый"
+        },
+        {
+          "english": "dirty",
+          "transcription": "/ˈdɜːti/",
+          "russian": "грязный"
+        },
+        {
+          "english": "full",
+          "transcription": "/fʊl/",
+          "russian": "полный"
+        },
+        {
+          "english": "empty",
+          "transcription": "/ˈempti/",
+          "russian": "пустой"
+        },
+        {
+          "english": "safe",
+          "transcription": "/seɪf/",
+          "russian": "безопасный"
+        },
+        {
+          "english": "dangerous",
+          "transcription": "/ˈdeɪndʒərəs/",
+          "russian": "опасный"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "2B — Модификаторы",
+      "words": [
+        {
+          "english": "very",
+          "transcription": "/ˈveri/",
+          "russian": "очень"
+        },
+        {
+          "english": "really",
+          "transcription": "/ˈriːəli/",
+          "russian": "очень / действительно"
+        },
+        {
+          "english": "quite",
+          "transcription": "/kwaɪt/",
+          "russian": "довольно"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "2C — Чувства",
+      "words": [
+        {
+          "english": "angry",
+          "transcription": "/ˈæŋɡri/",
+          "russian": "злой / сердитый"
+        },
+        {
+          "english": "tired",
+          "transcription": "/ˈtaɪəd/",
+          "russian": "усталый"
+        },
+        {
+          "english": "hungry",
+          "transcription": "/ˈhʌŋɡri/",
+          "russian": "голодный"
+        },
+        {
+          "english": "thirsty",
+          "transcription": "/ˈθɜːsti/",
+          "russian": "жаждущий"
+        },
+        {
+          "english": "happy",
+          "transcription": "/ˈhæpi/",
+          "russian": "счастливый"
+        },
+        {
+          "english": "sad",
+          "transcription": "/sæd/",
+          "russian": "грустный"
+        },
+        {
+          "english": "bored",
+          "transcription": "/bɔːd/",
+          "russian": "скучающий"
+        },
+        {
+          "english": "stressed",
+          "transcription": "/strest/",
+          "russian": "в стрессе"
+        },
+        {
+          "english": "worried",
+          "transcription": "/ˈwʌrid/",
+          "russian": "обеспокоенный"
+        },
+        {
+          "english": "frightened",
+          "transcription": "/ˈfraɪtnd/",
+          "russian": "напуганный"
+        },
+        {
+          "english": "hot",
+          "transcription": "/hɒt/",
+          "russian": "жаркий / жарко"
+        },
+        {
+          "english": "cold",
+          "transcription": "/kəʊld/",
+          "russian": "холодный / холодно"
+        },
+        {
+          "english": "well",
+          "transcription": "/wel/",
+          "russian": "хорошо (о здоровье)"
+        },
+        {
+          "english": "ill",
+          "transcription": "/ɪl/",
+          "russian": "больной / нездоровый"
+        },
+        {
+          "english": "excited",
+          "transcription": "/ɪkˈsaɪtɪd/",
+          "russian": "взволнованный (радостно)"
+        },
+        {
+          "english": "surprised",
+          "transcription": "/səˈpraɪzd/",
+          "russian": "удивлённый"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "2C — Императивы",
+      "words": [
+        {
+          "english": "Let's",
+          "transcription": "/lets/",
+          "russian": "давайте (предложение)"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "3A — Глагольные фразы",
+      "words": [
+        {
+          "english": "cook dinner",
+          "transcription": "/kʊk ˈdɪnə/",
+          "russian": "готовить ужин"
+        },
+        {
+          "english": "play tennis",
+          "transcription": "/pleɪ ˈtenɪs/",
+          "russian": "играть в теннис"
+        },
+        {
+          "english": "wear glasses",
+          "transcription": "/weə ˈɡlɑːsɪz/",
+          "russian": "носить очки"
+        },
+        {
+          "english": "read a book",
+          "transcription": "/riːd ə bʊk/",
+          "russian": "читать книгу"
+        },
+        {
+          "english": "watch TV",
+          "transcription": "/wɒtʃ ˌtiːˈviː/",
+          "russian": "смотреть телевизор"
+        },
+        {
+          "english": "speak German",
+          "transcription": "/spiːk ˈdʒɜːmən/",
+          "russian": "говорить по-немецки"
+        },
+        {
+          "english": "drive a car",
+          "transcription": "/draɪv ə kɑː/",
+          "russian": "водить машину"
+        },
+        {
+          "english": "do exercise",
+          "transcription": "/duː ˈeksəsaɪz/",
+          "russian": "делать упражнения"
+        },
+        {
+          "english": "drink coffee",
+          "transcription": "/drɪŋk ˈkɒfi/",
+          "russian": "пить кофе"
+        },
+        {
+          "english": "live in a flat",
+          "transcription": "/lɪv ɪn ə flæt/",
+          "russian": "жить в квартире"
+        },
+        {
+          "english": "earn money",
+          "transcription": "/ɜːn ˈmʌni/",
+          "russian": "зарабатывать деньги"
+        },
+        {
+          "english": "go to the cinema",
+          "transcription": "/ɡəʊ tə ðə ˈsɪnəmə/",
+          "russian": "ходить в кино"
+        },
+        {
+          "english": "listen to music",
+          "transcription": "/ˈlɪsn tə ˈmjuːzɪk/",
+          "russian": "слушать музыку"
+        },
+        {
+          "english": "have a coffee",
+          "transcription": "/hæv ə ˈkɒfi/",
+          "russian": "выпить кофе"
+        },
+        {
+          "english": "travel abroad",
+          "transcription": "/ˈtrævl əˈbrɔːd/",
+          "russian": "путешествовать за рубеж"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "3B — Профессии",
+      "words": [
+        {
+          "english": "lawyer",
+          "transcription": "/ˈlɔːjə/",
+          "russian": "юрист"
+        },
+        {
+          "english": "accountant",
+          "transcription": "/əˈkaʊntənt/",
+          "russian": "бухгалтер"
+        },
+        {
+          "english": "receptionist",
+          "transcription": "/rɪˈsepʃənɪst/",
+          "russian": "администратор"
+        },
+        {
+          "english": "journalist",
+          "transcription": "/ˈdʒɜːnəlɪst/",
+          "russian": "журналист"
+        },
+        {
+          "english": "nurse",
+          "transcription": "/nɜːs/",
+          "russian": "медсестра / медбрат"
+        },
+        {
+          "english": "pilot",
+          "transcription": "/ˈpaɪlət/",
+          "russian": "пилот"
+        },
+        {
+          "english": "waiter",
+          "transcription": "/ˈweɪtə/",
+          "russian": "официант"
+        },
+        {
+          "english": "police officer",
+          "transcription": "/pəˈliːs ˌɒfɪsə/",
+          "russian": "полицейский"
+        },
+        {
+          "english": "factory worker",
+          "transcription": "/ˈfæktri ˌwɜːkə/",
+          "russian": "рабочий на заводе"
+        },
+        {
+          "english": "flight attendant",
+          "transcription": "/flaɪt əˈtendənt/",
+          "russian": "стюард / стюардесса"
+        },
+        {
+          "english": "unemployed",
+          "transcription": "/ˌʌnɪmˈplɔɪd/",
+          "russian": "безработный"
+        },
+        {
+          "english": "retired",
+          "transcription": "/rɪˈtaɪəd/",
+          "russian": "на пенсии"
+        },
+        {
+          "english": "engineer",
+          "transcription": "/ˌendʒɪˈnɪə/",
+          "russian": "инженер"
+        },
+        {
+          "english": "teacher",
+          "transcription": "/ˈtiːtʃə/",
+          "russian": "учитель"
+        },
+        {
+          "english": "doctor",
+          "transcription": "/ˈdɒktə/",
+          "russian": "врач"
+        },
+        {
+          "english": "manager",
+          "transcription": "/ˈmænɪdʒə/",
+          "russian": "менеджер"
+        },
+        {
+          "english": "student",
+          "transcription": "/ˈstjuːdnt/",
+          "russian": "студент"
+        },
+        {
+          "english": "shop assistant",
+          "transcription": "/ʃɒp əˈsɪstənt/",
+          "russian": "продавец-консультант"
+        },
+        {
+          "english": "builder",
+          "transcription": "/ˈbɪldə/",
+          "russian": "строитель"
+        },
+        {
+          "english": "hairdresser",
+          "transcription": "/ˈheəˌdresə/",
+          "russian": "парикмахер"
+        },
+        {
+          "english": "vet",
+          "transcription": "/vet/",
+          "russian": "ветеринар"
+        },
+        {
+          "english": "dentist",
+          "transcription": "/ˈdentɪst/",
+          "russian": "стоматолог"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "3C — Вопросительные слова",
+      "words": [
+        {
+          "english": "what",
+          "transcription": "/wɒt/",
+          "russian": "что / какой"
+        },
+        {
+          "english": "where",
+          "transcription": "/weə/",
+          "russian": "где / куда"
+        },
+        {
+          "english": "when",
+          "transcription": "/wen/",
+          "russian": "когда"
+        },
+        {
+          "english": "who",
+          "transcription": "/huː/",
+          "russian": "кто"
+        },
+        {
+          "english": "why",
+          "transcription": "/waɪ/",
+          "russian": "почему"
+        },
+        {
+          "english": "how",
+          "transcription": "/haʊ/",
+          "russian": "как"
+        },
+        {
+          "english": "how many",
+          "transcription": "/haʊ ˈmeni/",
+          "russian": "сколько (исчисляемое)"
+        },
+        {
+          "english": "how much",
+          "transcription": "/haʊ mʌtʃ/",
+          "russian": "сколько (неисчисляемое)"
+        },
+        {
+          "english": "how often",
+          "transcription": "/haʊ ˈɒfən/",
+          "russian": "как часто"
+        },
+        {
+          "english": "which",
+          "transcription": "/wɪtʃ/",
+          "russian": "который / какой из"
+        },
+        {
+          "english": "what kind of",
+          "transcription": "/wɒt kaɪnd əv/",
+          "russian": "какой тип / вид"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "3C — Глаголы",
+      "words": [
+        {
+          "english": "prefer",
+          "transcription": "/prɪˈfɜː/",
+          "russian": "предпочитать"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "3C — Прилагательные",
+      "words": [
+        {
+          "english": "favourite",
+          "transcription": "/ˈfeɪvərɪt/",
+          "russian": "любимый"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "3C — Выражения",
+      "words": [
+        {
+          "english": "free time",
+          "transcription": "/friː taɪm/",
+          "russian": "свободное время"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "4A — Семья",
+      "words": [
+        {
+          "english": "husband",
+          "transcription": "/ˈhʌzbənd/",
+          "russian": "муж"
+        },
+        {
+          "english": "wife",
+          "transcription": "/waɪf/",
+          "russian": "жена"
+        },
+        {
+          "english": "father",
+          "transcription": "/ˈfɑːðə/",
+          "russian": "отец"
+        },
+        {
+          "english": "mother",
+          "transcription": "/ˈmʌðə/",
+          "russian": "мать"
+        },
+        {
+          "english": "son",
+          "transcription": "/sʌn/",
+          "russian": "сын"
+        },
+        {
+          "english": "daughter",
+          "transcription": "/ˈdɔːtə/",
+          "russian": "дочь"
+        },
+        {
+          "english": "brother",
+          "transcription": "/ˈbrʌðə/",
+          "russian": "брат"
+        },
+        {
+          "english": "sister",
+          "transcription": "/ˈsɪstə/",
+          "russian": "сестра"
+        },
+        {
+          "english": "grandfather",
+          "transcription": "/ˈɡrænfɑːðə/",
+          "russian": "дедушка"
+        },
+        {
+          "english": "grandmother",
+          "transcription": "/ˈɡrænmʌðə/",
+          "russian": "бабушка"
+        },
+        {
+          "english": "uncle",
+          "transcription": "/ˈʌŋkl/",
+          "russian": "дядя"
+        },
+        {
+          "english": "aunt",
+          "transcription": "/ɑːnt/",
+          "russian": "тётя"
+        },
+        {
+          "english": "cousin",
+          "transcription": "/ˈkʌzn/",
+          "russian": "двоюродный брат/сестра"
+        },
+        {
+          "english": "nephew",
+          "transcription": "/ˈnefjuː/",
+          "russian": "племянник"
+        },
+        {
+          "english": "niece",
+          "transcription": "/niːs/",
+          "russian": "племянница"
+        },
+        {
+          "english": "parents",
+          "transcription": "/ˈpeərənts/",
+          "russian": "родители"
+        },
+        {
+          "english": "children",
+          "transcription": "/ˈtʃɪldrən/",
+          "russian": "дети"
+        },
+        {
+          "english": "baby",
+          "transcription": "/ˈbeɪbi/",
+          "russian": "младенец / малыш"
+        },
+        {
+          "english": "partner",
+          "transcription": "/ˈpɑːtnə/",
+          "russian": "партнёр"
+        },
+        {
+          "english": "stepfather",
+          "transcription": "/ˈstepˌfɑːðə/",
+          "russian": "отчим"
+        },
+        {
+          "english": "stepmother",
+          "transcription": "/ˈstepˌmʌðə/",
+          "russian": "мачеха"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "4B — Распорядок дня",
+      "words": [
+        {
+          "english": "wake up",
+          "transcription": "/weɪk ʌp/",
+          "russian": "просыпаться"
+        },
+        {
+          "english": "get up",
+          "transcription": "/ɡet ʌp/",
+          "russian": "вставать с кровати"
+        },
+        {
+          "english": "have a shower",
+          "transcription": "/hæv ə ˈʃaʊə/",
+          "russian": "принимать душ"
+        },
+        {
+          "english": "have a bath",
+          "transcription": "/hæv ə bɑːθ/",
+          "russian": "принимать ванну"
+        },
+        {
+          "english": "get dressed",
+          "transcription": "/ɡet drest/",
+          "russian": "одеваться"
+        },
+        {
+          "english": "have breakfast",
+          "transcription": "/hæv ˈbrekfəst/",
+          "russian": "завтракать"
+        },
+        {
+          "english": "go to work",
+          "transcription": "/ɡəʊ tə wɜːk/",
+          "russian": "идти на работу"
+        },
+        {
+          "english": "start work",
+          "transcription": "/stɑːt wɜːk/",
+          "russian": "начинать работу"
+        },
+        {
+          "english": "have lunch",
+          "transcription": "/hæv lʌntʃ/",
+          "russian": "обедать"
+        },
+        {
+          "english": "finish work",
+          "transcription": "/ˈfɪnɪʃ wɜːk/",
+          "russian": "заканчивать работу"
+        },
+        {
+          "english": "get home",
+          "transcription": "/ɡet həʊm/",
+          "russian": "добираться домой"
+        },
+        {
+          "english": "make dinner",
+          "transcription": "/meɪk ˈdɪnə/",
+          "russian": "готовить ужин"
+        },
+        {
+          "english": "go to bed",
+          "transcription": "/ɡəʊ tə bed/",
+          "russian": "ложиться спать"
+        },
+        {
+          "english": "check messages",
+          "transcription": "/tʃek ˈmesɪdʒɪz/",
+          "russian": "проверять сообщения"
+        },
+        {
+          "english": "relax",
+          "transcription": "/rɪˈlæks/",
+          "russian": "расслабляться"
+        },
+        {
+          "english": "do homework",
+          "transcription": "/duː ˈhəʊmwɜːk/",
+          "russian": "делать домашнее задание"
+        },
+        {
+          "english": "go shopping",
+          "transcription": "/ɡəʊ ˈʃɒpɪŋ/",
+          "russian": "ходить по магазинам"
+        },
+        {
+          "english": "take a nap",
+          "transcription": "/teɪk ə næp/",
+          "russian": "вздремнуть"
+        },
+        {
+          "english": "do housework",
+          "transcription": "/duː ˈhaʊswɜːk/",
+          "russian": "делать работу по дому"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "4C — Месяцы",
+      "words": [
+        {
+          "english": "January",
+          "transcription": "/ˈdʒænjuəri/",
+          "russian": "январь"
+        },
+        {
+          "english": "February",
+          "transcription": "/ˈfebruəri/",
+          "russian": "февраль"
+        },
+        {
+          "english": "March",
+          "transcription": "/mɑːtʃ/",
+          "russian": "март"
+        },
+        {
+          "english": "April",
+          "transcription": "/ˈeɪprəl/",
+          "russian": "апрель"
+        },
+        {
+          "english": "May",
+          "transcription": "/meɪ/",
+          "russian": "май"
+        },
+        {
+          "english": "June",
+          "transcription": "/dʒuːn/",
+          "russian": "июнь"
+        },
+        {
+          "english": "July",
+          "transcription": "/dʒuˈlaɪ/",
+          "russian": "июль"
+        },
+        {
+          "english": "August",
+          "transcription": "/ˈɔːɡəst/",
+          "russian": "август"
+        },
+        {
+          "english": "September",
+          "transcription": "/sepˈtembə/",
+          "russian": "сентябрь"
+        },
+        {
+          "english": "October",
+          "transcription": "/ɒkˈtəʊbə/",
+          "russian": "октябрь"
+        },
+        {
+          "english": "November",
+          "transcription": "/nəʊˈvembə/",
+          "russian": "ноябрь"
+        },
+        {
+          "english": "December",
+          "transcription": "/dɪˈsembə/",
+          "russian": "декабрь"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "4C — Наречия частотности",
+      "words": [
+        {
+          "english": "always",
+          "transcription": "/ˈɔːlweɪz/",
+          "russian": "всегда"
+        },
+        {
+          "english": "usually",
+          "transcription": "/ˈjuːʒuəli/",
+          "russian": "обычно"
+        },
+        {
+          "english": "often",
+          "transcription": "/ˈɒfən/",
+          "russian": "часто"
+        },
+        {
+          "english": "sometimes",
+          "transcription": "/ˈsʌmtaɪmz/",
+          "russian": "иногда"
+        },
+        {
+          "english": "hardly ever",
+          "transcription": "/ˈhɑːdli ˈevə/",
+          "russian": "почти никогда"
+        },
+        {
+          "english": "never",
+          "transcription": "/ˈnevə/",
+          "russian": "никогда"
+        },
+        {
+          "english": "once a week",
+          "transcription": "/wʌns ə wiːk/",
+          "russian": "раз в неделю"
+        },
+        {
+          "english": "twice a day",
+          "transcription": "/twaɪs ə deɪ/",
+          "russian": "дважды в день"
+        },
+        {
+          "english": "every day",
+          "transcription": "/ˈevri deɪ/",
+          "russian": "каждый день"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "5A — Глагольные фразы",
+      "words": [
+        {
+          "english": "buy a newspaper",
+          "transcription": "/baɪ ə ˈnjuːzpeɪpə/",
+          "russian": "покупать газету"
+        },
+        {
+          "english": "call a taxi",
+          "transcription": "/kɔːl ə ˈtæksi/",
+          "russian": "вызвать такси"
+        },
+        {
+          "english": "draw a picture",
+          "transcription": "/drɔː ə ˈpɪktʃə/",
+          "russian": "рисовать картинку"
+        },
+        {
+          "english": "find your keys",
+          "transcription": "/faɪnd jə kiːz/",
+          "russian": "найти ключи"
+        },
+        {
+          "english": "forget a name",
+          "transcription": "/fəˈɡet ə neɪm/",
+          "russian": "забыть имя"
+        },
+        {
+          "english": "help somebody",
+          "transcription": "/help ˈsʌmbədi/",
+          "russian": "помочь кому-то"
+        },
+        {
+          "english": "leave your bag",
+          "transcription": "/liːv jə bæɡ/",
+          "russian": "оставить сумку"
+        },
+        {
+          "english": "run a race",
+          "transcription": "/rʌn ə reɪs/",
+          "russian": "бежать гонку"
+        },
+        {
+          "english": "send a message",
+          "transcription": "/send ə ˈmesɪdʒ/",
+          "russian": "отправить сообщение"
+        },
+        {
+          "english": "sing a song",
+          "transcription": "/sɪŋ ə sɒŋ/",
+          "russian": "петь песню"
+        },
+        {
+          "english": "swim in the sea",
+          "transcription": "/swɪm ɪn ðə siː/",
+          "russian": "плавать в море"
+        },
+        {
+          "english": "take a photo",
+          "transcription": "/teɪk ə ˈfəʊtəʊ/",
+          "russian": "сделать фото"
+        },
+        {
+          "english": "wait for a bus",
+          "transcription": "/weɪt fɔː ə bʌs/",
+          "russian": "ждать автобус"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "5B — Шум и действия",
+      "words": [
+        {
+          "english": "bark",
+          "transcription": "/bɑːk/",
+          "russian": "лаять"
+        },
+        {
+          "english": "argue",
+          "transcription": "/ˈɑːɡjuː/",
+          "russian": "спорить / ссориться"
+        },
+        {
+          "english": "cry",
+          "transcription": "/kraɪ/",
+          "russian": "плакать"
+        },
+        {
+          "english": "shout",
+          "transcription": "/ʃaʊt/",
+          "russian": "кричать"
+        },
+        {
+          "english": "laugh",
+          "transcription": "/lɑːf/",
+          "russian": "смеяться"
+        },
+        {
+          "english": "practise",
+          "transcription": "/ˈpræktɪs/",
+          "russian": "практиковать / репетировать"
+        },
+        {
+          "english": "make noise",
+          "transcription": "/meɪk nɔɪz/",
+          "russian": "шуметь"
+        },
+        {
+          "english": "play loud music",
+          "transcription": "/pleɪ laʊd ˈmjuːzɪk/",
+          "russian": "играть громкую музыку"
+        },
+        {
+          "english": "have a party",
+          "transcription": "/hæv ə ˈpɑːti/",
+          "russian": "устраивать вечеринку"
+        },
+        {
+          "english": "noisy",
+          "transcription": "/ˈnɔɪzi/",
+          "russian": "шумный"
+        },
+        {
+          "english": "quiet",
+          "transcription": "/ˈkwaɪət/",
+          "russian": "тихий / спокойный"
+        },
+        {
+          "english": "neighbour",
+          "transcription": "/ˈneɪbə/",
+          "russian": "сосед"
+        },
+        {
+          "english": "upstairs",
+          "transcription": "/ˌʌpˈsteəz/",
+          "russian": "наверху / сверху"
+        },
+        {
+          "english": "downstairs",
+          "transcription": "/ˌdaʊnˈsteəz/",
+          "russian": "внизу / снизу"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "5C — Погода",
+      "words": [
+        {
+          "english": "sunny",
+          "transcription": "/ˈsʌni/",
+          "russian": "солнечный"
+        },
+        {
+          "english": "cloudy",
+          "transcription": "/ˈklaʊdi/",
+          "russian": "облачный"
+        },
+        {
+          "english": "windy",
+          "transcription": "/ˈwɪndi/",
+          "russian": "ветреный"
+        },
+        {
+          "english": "rainy",
+          "transcription": "/ˈreɪni/",
+          "russian": "дождливый"
+        },
+        {
+          "english": "snowy",
+          "transcription": "/ˈsnəʊi/",
+          "russian": "снежный"
+        },
+        {
+          "english": "foggy",
+          "transcription": "/ˈfɒɡi/",
+          "russian": "туманный"
+        },
+        {
+          "english": "stormy",
+          "transcription": "/ˈstɔːmi/",
+          "russian": "штормовой"
+        },
+        {
+          "english": "warm",
+          "transcription": "/wɔːm/",
+          "russian": "тёплый"
+        },
+        {
+          "english": "freezing",
+          "transcription": "/ˈfriːzɪŋ/",
+          "russian": "морозный / очень холодный"
+        },
+        {
+          "english": "boiling",
+          "transcription": "/ˈbɔɪlɪŋ/",
+          "russian": "невыносимо жаркий"
+        },
+        {
+          "english": "cool",
+          "transcription": "/kuːl/",
+          "russian": "прохладный"
+        },
+        {
+          "english": "mild",
+          "transcription": "/maɪld/",
+          "russian": "мягкий (о климате)"
+        },
+        {
+          "english": "weather",
+          "transcription": "/ˈweðə/",
+          "russian": "погода"
+        },
+        {
+          "english": "temperature",
+          "transcription": "/ˈtemprətʃə/",
+          "russian": "температура"
+        },
+        {
+          "english": "degree",
+          "transcription": "/dɪˈɡriː/",
+          "russian": "градус"
+        },
+        {
+          "english": "raincoat",
+          "transcription": "/ˈreɪnkəʊt/",
+          "russian": "дождевик"
+        },
+        {
+          "english": "forecast",
+          "transcription": "/ˈfɔːkɑːst/",
+          "russian": "прогноз погоды"
+        },
+        {
+          "english": "rain",
+          "transcription": "/reɪn/",
+          "russian": "дождь"
+        },
+        {
+          "english": "snow",
+          "transcription": "/snəʊ/",
+          "russian": "снег"
+        },
+        {
+          "english": "wind",
+          "transcription": "/wɪnd/",
+          "russian": "ветер"
+        },
+        {
+          "english": "storm",
+          "transcription": "/stɔːm/",
+          "russian": "гроза / буря"
+        },
+        {
+          "english": "ice",
+          "transcription": "/aɪs/",
+          "russian": "лёд"
+        },
+        {
+          "english": "sunshine",
+          "transcription": "/ˈsʌnʃaɪn/",
+          "russian": "солнечный свет"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "5C — Сезоны",
+      "words": [
+        {
+          "english": "spring",
+          "transcription": "/sprɪŋ/",
+          "russian": "весна"
+        },
+        {
+          "english": "summer",
+          "transcription": "/ˈsʌmə/",
+          "russian": "лето"
+        },
+        {
+          "english": "autumn",
+          "transcription": "/ˈɔːtəm/",
+          "russian": "осень"
+        },
+        {
+          "english": "winter",
+          "transcription": "/ˈwɪntə/",
+          "russian": "зима"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "6A — Объектные местоимения",
+      "words": [
+        {
+          "english": "me",
+          "transcription": "/miː/",
+          "russian": "меня / мне"
+        },
+        {
+          "english": "him",
+          "transcription": "/hɪm/",
+          "russian": "его / ему"
+        },
+        {
+          "english": "us",
+          "transcription": "/ʌs/",
+          "russian": "нас / нам"
+        },
+        {
+          "english": "them",
+          "transcription": "/ðem/",
+          "russian": "их / им"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "6A — Слова для историй",
+      "words": [
+        {
+          "english": "arrive",
+          "transcription": "/əˈraɪv/",
+          "russian": "прибывать / приезжать"
+        },
+        {
+          "english": "leave",
+          "transcription": "/liːv/",
+          "russian": "уходить / уезжать"
+        },
+        {
+          "english": "sell",
+          "transcription": "/sel/",
+          "russian": "продавать"
+        },
+        {
+          "english": "decide",
+          "transcription": "/dɪˈsaɪd/",
+          "russian": "решать"
+        },
+        {
+          "english": "valuable",
+          "transcription": "/ˈvæljuəbl/",
+          "russian": "ценный"
+        },
+        {
+          "english": "comfortable",
+          "transcription": "/ˈkʌmftəbl/",
+          "russian": "удобный / комфортный"
+        },
+        {
+          "english": "strange",
+          "transcription": "/streɪndʒ/",
+          "russian": "странный"
+        },
+        {
+          "english": "village",
+          "transcription": "/ˈvɪlɪdʒ/",
+          "russian": "деревня"
+        },
+        {
+          "english": "desert",
+          "transcription": "/ˈdezət/",
+          "russian": "пустыня"
+        },
+        {
+          "english": "mountain",
+          "transcription": "/ˈmaʊntɪn/",
+          "russian": "гора"
+        },
+        {
+          "english": "palace",
+          "transcription": "/ˈpæləs/",
+          "russian": "дворец"
+        },
+        {
+          "english": "towards",
+          "transcription": "/təˈwɔːdz/",
+          "russian": "по направлению к"
+        },
+        {
+          "english": "through",
+          "transcription": "/θruː/",
+          "russian": "через / сквозь"
+        },
+        {
+          "english": "inside",
+          "transcription": "/ɪnˈsaɪd/",
+          "russian": "внутри"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "6B — Порядковые числа",
+      "words": [
+        {
+          "english": "first",
+          "transcription": "/fɜːst/",
+          "russian": "первый"
+        },
+        {
+          "english": "second",
+          "transcription": "/ˈsekənd/",
+          "russian": "второй"
+        },
+        {
+          "english": "third",
+          "transcription": "/θɜːd/",
+          "russian": "третий"
+        },
+        {
+          "english": "fourth",
+          "transcription": "/fɔːθ/",
+          "russian": "четвёртый"
+        },
+        {
+          "english": "fifth",
+          "transcription": "/fɪfθ/",
+          "russian": "пятый"
+        },
+        {
+          "english": "sixth",
+          "transcription": "/sɪksθ/",
+          "russian": "шестой"
+        },
+        {
+          "english": "seventh",
+          "transcription": "/ˈsevənθ/",
+          "russian": "седьмой"
+        },
+        {
+          "english": "eighth",
+          "transcription": "/eɪtθ/",
+          "russian": "восьмой"
+        },
+        {
+          "english": "ninth",
+          "transcription": "/naɪnθ/",
+          "russian": "девятый"
+        },
+        {
+          "english": "tenth",
+          "transcription": "/tenθ/",
+          "russian": "десятый"
+        },
+        {
+          "english": "twentieth",
+          "transcription": "/ˈtwentiəθ/",
+          "russian": "двадцатый"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "6B — Глаголы",
+      "words": [
+        {
+          "english": "enjoy",
+          "transcription": "/ɪnˈdʒɔɪ/",
+          "russian": "получать удовольствие"
+        },
+        {
+          "english": "don't mind",
+          "transcription": "/dəʊnt maɪnd/",
+          "russian": "не против"
+        },
+        {
+          "english": "hate",
+          "transcription": "/heɪt/",
+          "russian": "ненавидеть"
+        },
+        {
+          "english": "love",
+          "transcription": "/lʌv/",
+          "russian": "обожать"
+        },
+        {
+          "english": "like",
+          "transcription": "/laɪk/",
+          "russian": "нравится"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "6B — Праздники",
+      "words": [
+        {
+          "english": "birthday",
+          "transcription": "/ˈbɜːθdeɪ/",
+          "russian": "день рождения"
+        },
+        {
+          "english": "Christmas",
+          "transcription": "/ˈkrɪsməs/",
+          "russian": "Рождество"
+        },
+        {
+          "english": "New Year",
+          "transcription": "/njuː jɪə/",
+          "russian": "Новый год"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "6C — Инструменты",
+      "words": [
+        {
+          "english": "guitar",
+          "transcription": "/ɡɪˈtɑː/",
+          "russian": "гитара"
+        },
+        {
+          "english": "piano",
+          "transcription": "/piˈænəʊ/",
+          "russian": "пианино"
+        },
+        {
+          "english": "violin",
+          "transcription": "/ˌvaɪəˈlɪn/",
+          "russian": "скрипка"
+        },
+        {
+          "english": "drums",
+          "transcription": "/drʌmz/",
+          "russian": "барабаны"
+        },
+        {
+          "english": "trumpet",
+          "transcription": "/ˈtrʌmpɪt/",
+          "russian": "труба"
+        },
+        {
+          "english": "saxophone",
+          "transcription": "/ˈsæksəfəʊn/",
+          "russian": "саксофон"
+        },
+        {
+          "english": "keyboard",
+          "transcription": "/ˈkiːbɔːd/",
+          "russian": "клавишные"
+        },
+        {
+          "english": "bass",
+          "transcription": "/beɪs/",
+          "russian": "бас-гитара"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "6C — Музыка",
+      "words": [
+        {
+          "english": "singer",
+          "transcription": "/ˈsɪŋə/",
+          "russian": "певец / певица"
+        },
+        {
+          "english": "musician",
+          "transcription": "/mjuːˈzɪʃn/",
+          "russian": "музыкант"
+        },
+        {
+          "english": "band",
+          "transcription": "/bænd/",
+          "russian": "группа / коллектив"
+        },
+        {
+          "english": "concert",
+          "transcription": "/ˈkɒnsət/",
+          "russian": "концерт"
+        },
+        {
+          "english": "song",
+          "transcription": "/sɒŋ/",
+          "russian": "песня"
+        },
+        {
+          "english": "perform",
+          "transcription": "/pəˈfɔːm/",
+          "russian": "выступать"
+        },
+        {
+          "english": "audience",
+          "transcription": "/ˈɔːdiəns/",
+          "russian": "аудитория / зрители"
+        },
+        {
+          "english": "lyrics",
+          "transcription": "/ˈlɪrɪks/",
+          "russian": "слова песни"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "7A — Профессии",
+      "words": [
+        {
+          "english": "actor",
+          "transcription": "/ˈæktə/",
+          "russian": "актёр"
+        },
+        {
+          "english": "artist",
+          "transcription": "/ˈɑːtɪst/",
+          "russian": "художник"
+        },
+        {
+          "english": "composer",
+          "transcription": "/kəmˈpəʊzə/",
+          "russian": "композитор"
+        },
+        {
+          "english": "dancer",
+          "transcription": "/ˈdɑːnsə/",
+          "russian": "танцор"
+        },
+        {
+          "english": "director",
+          "transcription": "/dɪˈrektə/",
+          "russian": "режиссёр"
+        },
+        {
+          "english": "inventor",
+          "transcription": "/ɪnˈventə/",
+          "russian": "изобретатель"
+        },
+        {
+          "english": "novelist",
+          "transcription": "/ˈnɒvəlɪst/",
+          "russian": "романист"
+        },
+        {
+          "english": "painter",
+          "transcription": "/ˈpeɪntə/",
+          "russian": "художник"
+        },
+        {
+          "english": "pianist",
+          "transcription": "/ˈpiːənɪst/",
+          "russian": "пианист"
+        },
+        {
+          "english": "politician",
+          "transcription": "/ˌpɒlɪˈtɪʃn/",
+          "russian": "политик"
+        },
+        {
+          "english": "scientist",
+          "transcription": "/ˈsaɪəntɪst/",
+          "russian": "учёный"
+        },
+        {
+          "english": "writer",
+          "transcription": "/ˈraɪtə/",
+          "russian": "писатель"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "7A — Past Simple BE",
+      "words": [
+        {
+          "english": "was",
+          "transcription": "/wɒz/",
+          "russian": "был / была (ед.ч.)"
+        },
+        {
+          "english": "were",
+          "transcription": "/wɜː/",
+          "russian": "были (мн.ч.)"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "7A — Время",
+      "words": [
+        {
+          "english": "last week",
+          "transcription": "/lɑːst wiːk/",
+          "russian": "на прошлой неделе"
+        },
+        {
+          "english": "last year",
+          "transcription": "/lɑːst jɪə/",
+          "russian": "в прошлом году"
+        },
+        {
+          "english": "ago",
+          "transcription": "/əˈɡəʊ/",
+          "russian": "назад (два года назад)"
+        },
+        {
+          "english": "in 1990",
+          "transcription": "/ɪn ˌnaɪntiːn ˈnaɪnti/",
+          "russian": "в 1990 году"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Частые глаголы",
+      "words": [
+        {
+          "english": "be",
+          "transcription": "/biː/",
+          "russian": "быть"
+        },
+        {
+          "english": "have",
+          "transcription": "/hæv/",
+          "russian": "иметь"
+        },
+        {
+          "english": "do",
+          "transcription": "/duː/",
+          "russian": "делать"
+        },
+        {
+          "english": "say",
+          "transcription": "/seɪ/",
+          "russian": "говорить / сказать"
+        },
+        {
+          "english": "get",
+          "transcription": "/ɡet/",
+          "russian": "получать / становиться"
+        },
+        {
+          "english": "make",
+          "transcription": "/meɪk/",
+          "russian": "делать / создавать"
+        },
+        {
+          "english": "go",
+          "transcription": "/ɡəʊ/",
+          "russian": "идти / ехать"
+        },
+        {
+          "english": "know",
+          "transcription": "/nəʊ/",
+          "russian": "знать"
+        },
+        {
+          "english": "take",
+          "transcription": "/teɪk/",
+          "russian": "брать / принимать"
+        },
+        {
+          "english": "see",
+          "transcription": "/siː/",
+          "russian": "видеть"
+        },
+        {
+          "english": "come",
+          "transcription": "/kʌm/",
+          "russian": "приходить"
+        },
+        {
+          "english": "think",
+          "transcription": "/θɪŋk/",
+          "russian": "думать"
+        },
+        {
+          "english": "look",
+          "transcription": "/lʊk/",
+          "russian": "смотреть / выглядеть"
+        },
+        {
+          "english": "want",
+          "transcription": "/wɒnt/",
+          "russian": "хотеть"
+        },
+        {
+          "english": "give",
+          "transcription": "/ɡɪv/",
+          "russian": "давать"
+        },
+        {
+          "english": "use",
+          "transcription": "/juːz/",
+          "russian": "использовать"
+        },
+        {
+          "english": "find",
+          "transcription": "/faɪnd/",
+          "russian": "находить"
+        },
+        {
+          "english": "tell",
+          "transcription": "/tel/",
+          "russian": "рассказывать / говорить"
+        },
+        {
+          "english": "ask",
+          "transcription": "/ɑːsk/",
+          "russian": "спрашивать"
+        },
+        {
+          "english": "seem",
+          "transcription": "/siːm/",
+          "russian": "казаться"
+        },
+        {
+          "english": "feel",
+          "transcription": "/fiːl/",
+          "russian": "чувствовать"
+        },
+        {
+          "english": "try",
+          "transcription": "/traɪ/",
+          "russian": "пробовать / стараться"
+        },
+        {
+          "english": "call",
+          "transcription": "/kɔːl/",
+          "russian": "звонить / называть"
+        },
+        {
+          "english": "keep",
+          "transcription": "/kiːp/",
+          "russian": "держать / продолжать"
+        },
+        {
+          "english": "put",
+          "transcription": "/pʊt/",
+          "russian": "класть / ставить"
+        },
+        {
+          "english": "bring",
+          "transcription": "/brɪŋ/",
+          "russian": "приносить"
+        },
+        {
+          "english": "start",
+          "transcription": "/stɑːt/",
+          "russian": "начинать"
+        },
+        {
+          "english": "show",
+          "transcription": "/ʃəʊ/",
+          "russian": "показывать"
+        },
+        {
+          "english": "hear",
+          "transcription": "/hɪə/",
+          "russian": "слышать"
+        },
+        {
+          "english": "play",
+          "transcription": "/pleɪ/",
+          "russian": "играть"
+        },
+        {
+          "english": "run",
+          "transcription": "/rʌn/",
+          "russian": "бежать"
+        },
+        {
+          "english": "move",
+          "transcription": "/muːv/",
+          "russian": "двигаться / переезжать"
+        },
+        {
+          "english": "live",
+          "transcription": "/lɪv/",
+          "russian": "жить"
+        },
+        {
+          "english": "believe",
+          "transcription": "/bɪˈliːv/",
+          "russian": "верить"
+        },
+        {
+          "english": "hold",
+          "transcription": "/həʊld/",
+          "russian": "держать"
+        },
+        {
+          "english": "happen",
+          "transcription": "/ˈhæpən/",
+          "russian": "случаться / происходить"
+        },
+        {
+          "english": "write",
+          "transcription": "/raɪt/",
+          "russian": "писать"
+        },
+        {
+          "english": "sit",
+          "transcription": "/sɪt/",
+          "russian": "сидеть"
+        },
+        {
+          "english": "stand",
+          "transcription": "/stænd/",
+          "russian": "стоять"
+        },
+        {
+          "english": "lose",
+          "transcription": "/luːz/",
+          "russian": "терять / проигрывать"
+        },
+        {
+          "english": "pay",
+          "transcription": "/peɪ/",
+          "russian": "платить"
+        },
+        {
+          "english": "meet",
+          "transcription": "/miːt/",
+          "russian": "встречать / знакомиться"
+        },
+        {
+          "english": "open",
+          "transcription": "/ˈəʊpən/",
+          "russian": "открывать"
+        },
+        {
+          "english": "close",
+          "transcription": "/kləʊz/",
+          "russian": "закрывать"
+        },
+        {
+          "english": "change",
+          "transcription": "/tʃeɪndʒ/",
+          "russian": "изменять / менять"
+        },
+        {
+          "english": "follow",
+          "transcription": "/ˈfɒləʊ/",
+          "russian": "следовать"
+        },
+        {
+          "english": "stop",
+          "transcription": "/stɒp/",
+          "russian": "останавливаться"
+        },
+        {
+          "english": "create",
+          "transcription": "/kriˈeɪt/",
+          "russian": "создавать"
+        },
+        {
+          "english": "spend",
+          "transcription": "/spend/",
+          "russian": "тратить / проводить (время)"
+        },
+        {
+          "english": "return",
+          "transcription": "/rɪˈtɜːn/",
+          "russian": "возвращаться"
+        },
+        {
+          "english": "buy",
+          "transcription": "/baɪ/",
+          "russian": "покупать"
+        },
+        {
+          "english": "send",
+          "transcription": "/send/",
+          "russian": "отправлять"
+        },
+        {
+          "english": "receive",
+          "transcription": "/rɪˈsiːv/",
+          "russian": "получать"
+        },
+        {
+          "english": "remember",
+          "transcription": "/rɪˈmembə/",
+          "russian": "помнить"
+        },
+        {
+          "english": "forget",
+          "transcription": "/fəˈɡet/",
+          "russian": "забывать"
+        },
+        {
+          "english": "understand",
+          "transcription": "/ˌʌndəˈstænd/",
+          "russian": "понимать"
+        },
+        {
+          "english": "learn",
+          "transcription": "/lɜːn/",
+          "russian": "учить / учиться"
+        },
+        {
+          "english": "study",
+          "transcription": "/ˈstʌdi/",
+          "russian": "изучать / учиться"
+        },
+        {
+          "english": "teach",
+          "transcription": "/tiːtʃ/",
+          "russian": "учить (кого-то)"
+        },
+        {
+          "english": "read",
+          "transcription": "/riːd/",
+          "russian": "читать"
+        },
+        {
+          "english": "eat",
+          "transcription": "/iːt/",
+          "russian": "есть / кушать"
+        },
+        {
+          "english": "drink",
+          "transcription": "/drɪŋk/",
+          "russian": "пить"
+        },
+        {
+          "english": "sleep",
+          "transcription": "/sliːp/",
+          "russian": "спать"
+        },
+        {
+          "english": "walk",
+          "transcription": "/wɔːk/",
+          "russian": "ходить пешком"
+        },
+        {
+          "english": "talk",
+          "transcription": "/tɔːk/",
+          "russian": "разговаривать"
+        },
+        {
+          "english": "wait",
+          "transcription": "/weɪt/",
+          "russian": "ждать"
+        },
+        {
+          "english": "turn",
+          "transcription": "/tɜːn/",
+          "russian": "поворачивать / включать"
+        },
+        {
+          "english": "work",
+          "transcription": "/wɜːk/",
+          "russian": "работать"
+        },
+        {
+          "english": "need",
+          "transcription": "/niːd/",
+          "russian": "нуждаться / нужно"
+        },
+        {
+          "english": "help",
+          "transcription": "/help/",
+          "russian": "помогать"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Частые существительные",
+      "words": [
+        {
+          "english": "time",
+          "transcription": "/taɪm/",
+          "russian": "время"
+        },
+        {
+          "english": "year",
+          "transcription": "/jɪə/",
+          "russian": "год"
+        },
+        {
+          "english": "people",
+          "transcription": "/ˈpiːpl/",
+          "russian": "люди"
+        },
+        {
+          "english": "way",
+          "transcription": "/weɪ/",
+          "russian": "способ / путь"
+        },
+        {
+          "english": "day",
+          "transcription": "/deɪ/",
+          "russian": "день"
+        },
+        {
+          "english": "man",
+          "transcription": "/mæn/",
+          "russian": "мужчина / человек"
+        },
+        {
+          "english": "woman",
+          "transcription": "/ˈwʊmən/",
+          "russian": "женщина"
+        },
+        {
+          "english": "child",
+          "transcription": "/tʃaɪld/",
+          "russian": "ребёнок"
+        },
+        {
+          "english": "world",
+          "transcription": "/wɜːld/",
+          "russian": "мир"
+        },
+        {
+          "english": "life",
+          "transcription": "/laɪf/",
+          "russian": "жизнь"
+        },
+        {
+          "english": "hand",
+          "transcription": "/hænd/",
+          "russian": "рука (кисть)"
+        },
+        {
+          "english": "part",
+          "transcription": "/pɑːt/",
+          "russian": "часть"
+        },
+        {
+          "english": "place",
+          "transcription": "/pleɪs/",
+          "russian": "место"
+        },
+        {
+          "english": "week",
+          "transcription": "/wiːk/",
+          "russian": "неделя"
+        },
+        {
+          "english": "case",
+          "transcription": "/keɪs/",
+          "russian": "случай / дело"
+        },
+        {
+          "english": "point",
+          "transcription": "/pɔɪnt/",
+          "russian": "точка / смысл"
+        },
+        {
+          "english": "government",
+          "transcription": "/ˈɡʌvənmənt/",
+          "russian": "правительство"
+        },
+        {
+          "english": "company",
+          "transcription": "/ˈkʌmpəni/",
+          "russian": "компания"
+        },
+        {
+          "english": "number",
+          "transcription": "/ˈnʌmbə/",
+          "russian": "число / номер"
+        },
+        {
+          "english": "group",
+          "transcription": "/ɡruːp/",
+          "russian": "группа"
+        },
+        {
+          "english": "problem",
+          "transcription": "/ˈprɒbləm/",
+          "russian": "проблема"
+        },
+        {
+          "english": "fact",
+          "transcription": "/fækt/",
+          "russian": "факт"
+        },
+        {
+          "english": "money",
+          "transcription": "/ˈmʌni/",
+          "russian": "деньги"
+        },
+        {
+          "english": "city",
+          "transcription": "/ˈsɪti/",
+          "russian": "город"
+        },
+        {
+          "english": "job",
+          "transcription": "/dʒɒb/",
+          "russian": "работа / должность"
+        },
+        {
+          "english": "home",
+          "transcription": "/həʊm/",
+          "russian": "дом / домой"
+        },
+        {
+          "english": "family",
+          "transcription": "/ˈfæməli/",
+          "russian": "семья"
+        },
+        {
+          "english": "school",
+          "transcription": "/skuːl/",
+          "russian": "школа"
+        },
+        {
+          "english": "country",
+          "transcription": "/ˈkʌntri/",
+          "russian": "страна"
+        },
+        {
+          "english": "question",
+          "transcription": "/ˈkwestʃən/",
+          "russian": "вопрос"
+        },
+        {
+          "english": "answer",
+          "transcription": "/ˈɑːnsə/",
+          "russian": "ответ"
+        },
+        {
+          "english": "name",
+          "transcription": "/neɪm/",
+          "russian": "имя / название"
+        },
+        {
+          "english": "idea",
+          "transcription": "/aɪˈdɪə/",
+          "russian": "идея"
+        },
+        {
+          "english": "information",
+          "transcription": "/ˌɪnfəˈmeɪʃn/",
+          "russian": "информация"
+        },
+        {
+          "english": "word",
+          "transcription": "/wɜːd/",
+          "russian": "слово"
+        },
+        {
+          "english": "story",
+          "transcription": "/ˈstɔːri/",
+          "russian": "история / рассказ"
+        },
+        {
+          "english": "food",
+          "transcription": "/fuːd/",
+          "russian": "еда"
+        },
+        {
+          "english": "water",
+          "transcription": "/ˈwɔːtə/",
+          "russian": "вода"
+        },
+        {
+          "english": "office",
+          "transcription": "/ˈɒfɪs/",
+          "russian": "офис"
+        },
+        {
+          "english": "house",
+          "transcription": "/haʊs/",
+          "russian": "дом (здание)"
+        },
+        {
+          "english": "room",
+          "transcription": "/ruːm/",
+          "russian": "комната"
+        },
+        {
+          "english": "car",
+          "transcription": "/kɑː/",
+          "russian": "машина"
+        },
+        {
+          "english": "street",
+          "transcription": "/striːt/",
+          "russian": "улица"
+        },
+        {
+          "english": "hour",
+          "transcription": "/aʊə/",
+          "russian": "час"
+        },
+        {
+          "english": "minute",
+          "transcription": "/ˈmɪnɪt/",
+          "russian": "минута"
+        },
+        {
+          "english": "morning",
+          "transcription": "/ˈmɔːnɪŋ/",
+          "russian": "утро"
+        },
+        {
+          "english": "afternoon",
+          "transcription": "/ˌɑːftəˈnuːn/",
+          "russian": "после полудня / день"
+        },
+        {
+          "english": "evening",
+          "transcription": "/ˈiːvnɪŋ/",
+          "russian": "вечер"
+        },
+        {
+          "english": "night",
+          "transcription": "/naɪt/",
+          "russian": "ночь"
+        },
+        {
+          "english": "friend",
+          "transcription": "/frend/",
+          "russian": "друг"
+        },
+        {
+          "english": "game",
+          "transcription": "/ɡeɪm/",
+          "russian": "игра"
+        },
+        {
+          "english": "health",
+          "transcription": "/helθ/",
+          "russian": "здоровье"
+        },
+        {
+          "english": "market",
+          "transcription": "/ˈmɑːkɪt/",
+          "russian": "рынок"
+        },
+        {
+          "english": "paper",
+          "transcription": "/ˈpeɪpə/",
+          "russian": "бумага / газета"
+        },
+        {
+          "english": "letter",
+          "transcription": "/ˈletə/",
+          "russian": "письмо / буква"
+        },
+        {
+          "english": "holiday",
+          "transcription": "/ˈhɒlɪdeɪ/",
+          "russian": "праздник / отпуск"
+        },
+        {
+          "english": "trip",
+          "transcription": "/trɪp/",
+          "russian": "поездка"
+        },
+        {
+          "english": "music",
+          "transcription": "/ˈmjuːzɪk/",
+          "russian": "музыка"
+        },
+        {
+          "english": "film",
+          "transcription": "/fɪlm/",
+          "russian": "фильм"
+        },
+        {
+          "english": "sport",
+          "transcription": "/spɔːt/",
+          "russian": "спорт"
+        },
+        {
+          "english": "team",
+          "transcription": "/tiːm/",
+          "russian": "команда"
+        },
+        {
+          "english": "price",
+          "transcription": "/praɪs/",
+          "russian": "цена"
+        },
+        {
+          "english": "shop",
+          "transcription": "/ʃɒp/",
+          "russian": "магазин"
+        },
+        {
+          "english": "bank",
+          "transcription": "/bæŋk/",
+          "russian": "банк"
+        },
+        {
+          "english": "hospital",
+          "transcription": "/ˈhɒspɪtl/",
+          "russian": "больница"
+        },
+        {
+          "english": "airport",
+          "transcription": "/ˈeəpɔːt/",
+          "russian": "аэропорт"
+        },
+        {
+          "english": "station",
+          "transcription": "/ˈsteɪʃn/",
+          "russian": "станция / вокзал"
+        },
+        {
+          "english": "language",
+          "transcription": "/ˈlæŋɡwɪdʒ/",
+          "russian": "язык"
+        },
+        {
+          "english": "internet",
+          "transcription": "/ˈɪntənet/",
+          "russian": "интернет"
+        },
+        {
+          "english": "website",
+          "transcription": "/ˈwebsaɪt/",
+          "russian": "веб-сайт"
+        },
+        {
+          "english": "computer",
+          "transcription": "/kəmˈpjuːtə/",
+          "russian": "компьютер"
+        },
+        {
+          "english": "message",
+          "transcription": "/ˈmesɪdʒ/",
+          "russian": "сообщение"
+        },
+        {
+          "english": "photo",
+          "transcription": "/ˈfəʊtəʊ/",
+          "russian": "фотография"
+        },
+        {
+          "english": "colour",
+          "transcription": "/ˈkʌlə/",
+          "russian": "цвет"
+        },
+        {
+          "english": "size",
+          "transcription": "/saɪz/",
+          "russian": "размер"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Частые прилагательные",
+      "words": [
+        {
+          "english": "good",
+          "transcription": "/ɡʊd/",
+          "russian": "хороший"
+        },
+        {
+          "english": "bad",
+          "transcription": "/bæd/",
+          "russian": "плохой"
+        },
+        {
+          "english": "great",
+          "transcription": "/ɡreɪt/",
+          "russian": "отличный / великий"
+        },
+        {
+          "english": "little",
+          "transcription": "/ˈlɪtl/",
+          "russian": "маленький / немного"
+        },
+        {
+          "english": "large",
+          "transcription": "/lɑːdʒ/",
+          "russian": "большой"
+        },
+        {
+          "english": "right",
+          "transcription": "/raɪt/",
+          "russian": "правильный / правый"
+        },
+        {
+          "english": "wrong",
+          "transcription": "/rɒŋ/",
+          "russian": "неправильный"
+        },
+        {
+          "english": "different",
+          "transcription": "/ˈdɪfrənt/",
+          "russian": "другой / различный"
+        },
+        {
+          "english": "same",
+          "transcription": "/seɪm/",
+          "russian": "одинаковый / тот же"
+        },
+        {
+          "english": "important",
+          "transcription": "/ɪmˈpɔːtnt/",
+          "russian": "важный"
+        },
+        {
+          "english": "possible",
+          "transcription": "/ˈpɒsəbl/",
+          "russian": "возможный"
+        },
+        {
+          "english": "difficult",
+          "transcription": "/ˈdɪfɪkəlt/",
+          "russian": "трудный"
+        },
+        {
+          "english": "easy",
+          "transcription": "/ˈiːzi/",
+          "russian": "лёгкий / простой"
+        },
+        {
+          "english": "interesting",
+          "transcription": "/ˈɪntrəstɪŋ/",
+          "russian": "интересный"
+        },
+        {
+          "english": "boring",
+          "transcription": "/ˈbɔːrɪŋ/",
+          "russian": "скучный"
+        },
+        {
+          "english": "exciting",
+          "transcription": "/ɪkˈsaɪtɪŋ/",
+          "russian": "захватывающий"
+        },
+        {
+          "english": "awful",
+          "transcription": "/ˈɔːfl/",
+          "russian": "ужасный"
+        },
+        {
+          "english": "wonderful",
+          "transcription": "/ˈwʌndəfl/",
+          "russian": "замечательный"
+        },
+        {
+          "english": "popular",
+          "transcription": "/ˈpɒpjələ/",
+          "russian": "популярный"
+        },
+        {
+          "english": "free",
+          "transcription": "/friː/",
+          "russian": "свободный / бесплатный"
+        },
+        {
+          "english": "ready",
+          "transcription": "/ˈredi/",
+          "russian": "готовый"
+        },
+        {
+          "english": "sure",
+          "transcription": "/ʃʊə/",
+          "russian": "уверенный"
+        },
+        {
+          "english": "late",
+          "transcription": "/leɪt/",
+          "russian": "поздний / опоздавший"
+        },
+        {
+          "english": "early",
+          "transcription": "/ˈɜːli/",
+          "russian": "ранний / рано"
+        },
+        {
+          "english": "young",
+          "transcription": "/jʌŋ/",
+          "russian": "молодой"
+        },
+        {
+          "english": "busy",
+          "transcription": "/ˈbɪzi/",
+          "russian": "занятый"
+        },
+        {
+          "english": "funny",
+          "transcription": "/ˈfʌni/",
+          "russian": "смешной"
+        },
+        {
+          "english": "serious",
+          "transcription": "/ˈsɪəriəs/",
+          "russian": "серьёзный"
+        },
+        {
+          "english": "special",
+          "transcription": "/ˈspeʃl/",
+          "russian": "особенный"
+        },
+        {
+          "english": "typical",
+          "transcription": "/ˈtɪpɪkl/",
+          "russian": "типичный"
+        },
+        {
+          "english": "local",
+          "transcription": "/ˈləʊkl/",
+          "russian": "местный"
+        },
+        {
+          "english": "social",
+          "transcription": "/ˈsəʊʃl/",
+          "russian": "социальный"
+        },
+        {
+          "english": "natural",
+          "transcription": "/ˈnætʃrəl/",
+          "russian": "естественный"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Частые наречия",
+      "words": [
+        {
+          "english": "also",
+          "transcription": "/ˈɔːlsəʊ/",
+          "russian": "также"
+        },
+        {
+          "english": "too",
+          "transcription": "/tuː/",
+          "russian": "тоже / слишком"
+        },
+        {
+          "english": "just",
+          "transcription": "/dʒʌst/",
+          "russian": "просто / только что"
+        },
+        {
+          "english": "still",
+          "transcription": "/stɪl/",
+          "russian": "всё ещё"
+        },
+        {
+          "english": "again",
+          "transcription": "/əˈɡen/",
+          "russian": "снова"
+        },
+        {
+          "english": "already",
+          "transcription": "/ɔːlˈredi/",
+          "russian": "уже"
+        },
+        {
+          "english": "now",
+          "transcription": "/naʊ/",
+          "russian": "сейчас"
+        },
+        {
+          "english": "then",
+          "transcription": "/ðen/",
+          "russian": "тогда / потом"
+        },
+        {
+          "english": "here",
+          "transcription": "/hɪə/",
+          "russian": "здесь"
+        },
+        {
+          "english": "there",
+          "transcription": "/ðeə/",
+          "russian": "там"
+        },
+        {
+          "english": "together",
+          "transcription": "/təˈɡeðə/",
+          "russian": "вместе"
+        },
+        {
+          "english": "away",
+          "transcription": "/əˈweɪ/",
+          "russian": "прочь / далеко"
+        },
+        {
+          "english": "back",
+          "transcription": "/bæk/",
+          "russian": "назад / обратно"
+        },
+        {
+          "english": "even",
+          "transcription": "/ˈiːvən/",
+          "russian": "даже"
+        },
+        {
+          "english": "only",
+          "transcription": "/ˈəʊnli/",
+          "russian": "только"
+        },
+        {
+          "english": "maybe",
+          "transcription": "/ˈmeɪbi/",
+          "russian": "может быть"
+        },
+        {
+          "english": "probably",
+          "transcription": "/ˈprɒbəbli/",
+          "russian": "вероятно"
+        },
+        {
+          "english": "almost",
+          "transcription": "/ˈɔːlməʊst/",
+          "russian": "почти"
+        },
+        {
+          "english": "enough",
+          "transcription": "/ɪˈnʌf/",
+          "russian": "достаточно"
+        },
+        {
+          "english": "quickly",
+          "transcription": "/ˈkwɪkli/",
+          "russian": "быстро"
+        },
+        {
+          "english": "slowly",
+          "transcription": "/ˈsləʊli/",
+          "russian": "медленно"
+        },
+        {
+          "english": "badly",
+          "transcription": "/ˈbædli/",
+          "russian": "плохо"
+        },
+        {
+          "english": "hard",
+          "transcription": "/hɑːd/",
+          "russian": "усердно / сильно"
+        },
+        {
+          "english": "right now",
+          "transcription": "/raɪt naʊ/",
+          "russian": "прямо сейчас"
+        },
+        {
+          "english": "at the moment",
+          "transcription": "/æt ðə ˈməʊmənt/",
+          "russian": "в данный момент"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Союзы и предлоги",
+      "words": [
+        {
+          "english": "and",
+          "transcription": "/ænd/",
+          "russian": "и"
+        },
+        {
+          "english": "but",
+          "transcription": "/bʌt/",
+          "russian": "но"
+        },
+        {
+          "english": "or",
+          "transcription": "/ɔː/",
+          "russian": "или"
+        },
+        {
+          "english": "because",
+          "transcription": "/bɪˈkɒz/",
+          "russian": "потому что"
+        },
+        {
+          "english": "so",
+          "transcription": "/səʊ/",
+          "russian": "поэтому / итак"
+        },
+        {
+          "english": "if",
+          "transcription": "/ɪf/",
+          "russian": "если"
+        },
+        {
+          "english": "before",
+          "transcription": "/bɪˈfɔː/",
+          "russian": "до / перед"
+        },
+        {
+          "english": "after",
+          "transcription": "/ˈɑːftə/",
+          "russian": "после"
+        },
+        {
+          "english": "while",
+          "transcription": "/waɪl/",
+          "russian": "пока / в то время как"
+        },
+        {
+          "english": "although",
+          "transcription": "/ɔːlˈðəʊ/",
+          "russian": "хотя"
+        },
+        {
+          "english": "at",
+          "transcription": "/æt/",
+          "russian": "в / на (точка)"
+        },
+        {
+          "english": "for",
+          "transcription": "/fɔː/",
+          "russian": "для / за / в течение"
+        },
+        {
+          "english": "to",
+          "transcription": "/tuː/",
+          "russian": "к / в (движение)"
+        },
+        {
+          "english": "from",
+          "transcription": "/frɒm/",
+          "russian": "из / от"
+        },
+        {
+          "english": "with",
+          "transcription": "/wɪð/",
+          "russian": "с / вместе с"
+        },
+        {
+          "english": "without",
+          "transcription": "/wɪˈðaʊt/",
+          "russian": "без"
+        },
+        {
+          "english": "about",
+          "transcription": "/əˈbaʊt/",
+          "russian": "о / около"
+        },
+        {
+          "english": "up",
+          "transcription": "/ʌp/",
+          "russian": "вверх / наверх"
+        },
+        {
+          "english": "down",
+          "transcription": "/daʊn/",
+          "russian": "вниз"
+        },
+        {
+          "english": "over",
+          "transcription": "/ˈəʊvə/",
+          "russian": "над / через"
+        },
+        {
+          "english": "by",
+          "transcription": "/baɪ/",
+          "russian": "около / к / на (транспорт)"
+        },
+        {
+          "english": "as",
+          "transcription": "/æz/",
+          "russian": "как / в качестве"
+        },
+        {
+          "english": "into",
+          "transcription": "/ˈɪntə/",
+          "russian": "в (движение внутрь)"
+        },
+        {
+          "english": "out",
+          "transcription": "/aʊt/",
+          "russian": "вне / снаружи"
+        },
+        {
+          "english": "during",
+          "transcription": "/ˈdjʊərɪŋ/",
+          "russian": "во время"
+        },
+        {
+          "english": "since",
+          "transcription": "/sɪns/",
+          "russian": "с (тех пор) / так как"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Еда и напитки",
+      "words": [
+        {
+          "english": "breakfast",
+          "transcription": "/ˈbrekfəst/",
+          "russian": "завтрак"
+        },
+        {
+          "english": "lunch",
+          "transcription": "/lʌntʃ/",
+          "russian": "обед"
+        },
+        {
+          "english": "dinner",
+          "transcription": "/ˈdɪnə/",
+          "russian": "ужин"
+        },
+        {
+          "english": "meal",
+          "transcription": "/miːl/",
+          "russian": "приём пищи"
+        },
+        {
+          "english": "coffee",
+          "transcription": "/ˈkɒfi/",
+          "russian": "кофе"
+        },
+        {
+          "english": "tea",
+          "transcription": "/tiː/",
+          "russian": "чай"
+        },
+        {
+          "english": "juice",
+          "transcription": "/dʒuːs/",
+          "russian": "сок"
+        },
+        {
+          "english": "milk",
+          "transcription": "/mɪlk/",
+          "russian": "молоко"
+        },
+        {
+          "english": "bread",
+          "transcription": "/bred/",
+          "russian": "хлеб"
+        },
+        {
+          "english": "rice",
+          "transcription": "/raɪs/",
+          "russian": "рис"
+        },
+        {
+          "english": "meat",
+          "transcription": "/miːt/",
+          "russian": "мясо"
+        },
+        {
+          "english": "fish",
+          "transcription": "/fɪʃ/",
+          "russian": "рыба"
+        },
+        {
+          "english": "chicken",
+          "transcription": "/ˈtʃɪkɪn/",
+          "russian": "курица"
+        },
+        {
+          "english": "salad",
+          "transcription": "/ˈsæləd/",
+          "russian": "салат"
+        },
+        {
+          "english": "soup",
+          "transcription": "/suːp/",
+          "russian": "суп"
+        },
+        {
+          "english": "cheese",
+          "transcription": "/tʃiːz/",
+          "russian": "сыр"
+        },
+        {
+          "english": "egg",
+          "transcription": "/eɡ/",
+          "russian": "яйцо"
+        },
+        {
+          "english": "fruit",
+          "transcription": "/fruːt/",
+          "russian": "фрукт"
+        },
+        {
+          "english": "vegetable",
+          "transcription": "/ˈvedʒtəbl/",
+          "russian": "овощ"
+        },
+        {
+          "english": "apple",
+          "transcription": "/ˈæpl/",
+          "russian": "яблоко"
+        },
+        {
+          "english": "banana",
+          "transcription": "/bəˈnɑːnə/",
+          "russian": "банан"
+        },
+        {
+          "english": "tomato",
+          "transcription": "/təˈmɑːtəʊ/",
+          "russian": "помидор"
+        },
+        {
+          "english": "potato",
+          "transcription": "/pəˈteɪtəʊ/",
+          "russian": "картофель"
+        },
+        {
+          "english": "sugar",
+          "transcription": "/ˈʃʊɡə/",
+          "russian": "сахар"
+        },
+        {
+          "english": "salt",
+          "transcription": "/sɔːlt/",
+          "russian": "соль"
+        },
+        {
+          "english": "butter",
+          "transcription": "/ˈbʌtə/",
+          "russian": "масло (сливочное)"
+        },
+        {
+          "english": "restaurant",
+          "transcription": "/ˈrestrɒnt/",
+          "russian": "ресторан"
+        },
+        {
+          "english": "menu",
+          "transcription": "/ˈmenjuː/",
+          "russian": "меню"
+        },
+        {
+          "english": "delicious",
+          "transcription": "/dɪˈlɪʃəs/",
+          "russian": "вкусный"
+        },
+        {
+          "english": "snack",
+          "transcription": "/snæk/",
+          "russian": "перекус"
+        },
+        {
+          "english": "starter",
+          "transcription": "/ˈstɑːtə/",
+          "russian": "закуска"
+        },
+        {
+          "english": "main course",
+          "transcription": "/meɪn kɔːs/",
+          "russian": "основное блюдо"
+        },
+        {
+          "english": "dessert",
+          "transcription": "/dɪˈzɜːt/",
+          "russian": "десерт"
+        },
+        {
+          "english": "beer",
+          "transcription": "/bɪə/",
+          "russian": "пиво"
+        },
+        {
+          "english": "pasta",
+          "transcription": "/ˈpæstə/",
+          "russian": "паста / макароны"
+        },
+        {
+          "english": "oil",
+          "transcription": "/ɔɪl/",
+          "russian": "масло растительное"
+        },
+        {
+          "english": "pepper",
+          "transcription": "/ˈpepə/",
+          "russian": "перец"
+        },
+        {
+          "english": "onion",
+          "transcription": "/ˈʌnjən/",
+          "russian": "лук"
+        },
+        {
+          "english": "sandwich",
+          "transcription": "/ˈsænwɪdʒ/",
+          "russian": "сэндвич"
+        },
+        {
+          "english": "cake",
+          "transcription": "/keɪk/",
+          "russian": "торт / пирог"
+        },
+        {
+          "english": "chocolate",
+          "transcription": "/ˈtʃɒklət/",
+          "russian": "шоколад"
+        },
+        {
+          "english": "ice cream",
+          "transcription": "/ˈaɪs kriːm/",
+          "russian": "мороженое"
+        },
+        {
+          "english": "tasty",
+          "transcription": "/ˈteɪsti/",
+          "russian": "вкусный"
+        },
+        {
+          "english": "spicy",
+          "transcription": "/ˈspaɪsi/",
+          "russian": "острый"
+        },
+        {
+          "english": "sweet",
+          "transcription": "/swiːt/",
+          "russian": "сладкий"
+        },
+        {
+          "english": "sour",
+          "transcription": "/ˈsaʊə/",
+          "russian": "кислый"
+        },
+        {
+          "english": "bitter",
+          "transcription": "/ˈbɪtə/",
+          "russian": "горький"
+        },
+        {
+          "english": "fresh",
+          "transcription": "/freʃ/",
+          "russian": "свежий"
+        },
+        {
+          "english": "vegetarian",
+          "transcription": "/ˌvedʒɪˈteəriən/",
+          "russian": "вегетарианский"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Транспорт и путешествия",
+      "words": [
+        {
+          "english": "bus",
+          "transcription": "/bʌs/",
+          "russian": "автобус"
+        },
+        {
+          "english": "train",
+          "transcription": "/treɪn/",
+          "russian": "поезд"
+        },
+        {
+          "english": "plane",
+          "transcription": "/pleɪn/",
+          "russian": "самолёт"
+        },
+        {
+          "english": "taxi",
+          "transcription": "/ˈtæksi/",
+          "russian": "такси"
+        },
+        {
+          "english": "bike",
+          "transcription": "/baɪk/",
+          "russian": "велосипед"
+        },
+        {
+          "english": "drive",
+          "transcription": "/draɪv/",
+          "russian": "ехать / водить"
+        },
+        {
+          "english": "fly",
+          "transcription": "/flaɪ/",
+          "russian": "лететь"
+        },
+        {
+          "english": "travel",
+          "transcription": "/ˈtrævl/",
+          "russian": "путешествовать"
+        },
+        {
+          "english": "journey",
+          "transcription": "/ˈdʒɜːni/",
+          "russian": "путешествие / поездка"
+        },
+        {
+          "english": "passport",
+          "transcription": "/ˈpɑːspɔːt/",
+          "russian": "паспорт"
+        },
+        {
+          "english": "hotel",
+          "transcription": "/həʊˈtel/",
+          "russian": "отель"
+        },
+        {
+          "english": "map",
+          "transcription": "/mæp/",
+          "russian": "карта"
+        },
+        {
+          "english": "left",
+          "transcription": "/left/",
+          "russian": "левый / налево"
+        },
+        {
+          "english": "straight on",
+          "transcription": "/streɪt ɒn/",
+          "russian": "прямо"
+        },
+        {
+          "english": "motorbike",
+          "transcription": "/ˈməʊtəbaɪk/",
+          "russian": "мотоцикл"
+        },
+        {
+          "english": "underground",
+          "transcription": "/ˈʌndəɡraʊnd/",
+          "russian": "метро"
+        },
+        {
+          "english": "tram",
+          "transcription": "/træm/",
+          "russian": "трамвай"
+        },
+        {
+          "english": "boat",
+          "transcription": "/bəʊt/",
+          "russian": "лодка"
+        },
+        {
+          "english": "ship",
+          "transcription": "/ʃɪp/",
+          "russian": "корабль"
+        },
+        {
+          "english": "platform",
+          "transcription": "/ˈplætfɔːm/",
+          "russian": "платформа"
+        },
+        {
+          "english": "luggage",
+          "transcription": "/ˈlʌɡɪdʒ/",
+          "russian": "багаж"
+        },
+        {
+          "english": "suitcase",
+          "transcription": "/ˈsuːtkeɪs/",
+          "russian": "чемодан"
+        },
+        {
+          "english": "hostel",
+          "transcription": "/ˈhɒstl/",
+          "russian": "хостел"
+        },
+        {
+          "english": "check in",
+          "transcription": "/tʃek ɪn/",
+          "russian": "заселяться / регистрироваться"
+        },
+        {
+          "english": "check out",
+          "transcription": "/tʃek aʊt/",
+          "russian": "выселяться"
+        },
+        {
+          "english": "booking",
+          "transcription": "/ˈbʊkɪŋ/",
+          "russian": "бронирование"
+        },
+        {
+          "english": "reservation",
+          "transcription": "/ˌrezəˈveɪʃn/",
+          "russian": "резервирование"
+        },
+        {
+          "english": "abroad",
+          "transcription": "/əˈbrɔːd/",
+          "russian": "за границей / за границу"
+        },
+        {
+          "english": "direction",
+          "transcription": "/dɪˈrekʃn/",
+          "russian": "направление"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Технологии и работа",
+      "words": [
+        {
+          "english": "software",
+          "transcription": "/ˈsɒftweə/",
+          "russian": "программное обеспечение"
+        },
+        {
+          "english": "application",
+          "transcription": "/ˌæplɪˈkeɪʃn/",
+          "russian": "приложение"
+        },
+        {
+          "english": "develop",
+          "transcription": "/dɪˈveləp/",
+          "russian": "разрабатывать"
+        },
+        {
+          "english": "system",
+          "transcription": "/ˈsɪstəm/",
+          "russian": "система"
+        },
+        {
+          "english": "project",
+          "transcription": "/ˈprɒdʒekt/",
+          "russian": "проект"
+        },
+        {
+          "english": "meeting",
+          "transcription": "/ˈmiːtɪŋ/",
+          "russian": "встреча / совещание"
+        },
+        {
+          "english": "deadline",
+          "transcription": "/ˈdedlaɪn/",
+          "russian": "дедлайн"
+        },
+        {
+          "english": "salary",
+          "transcription": "/ˈsæləri/",
+          "russian": "зарплата"
+        },
+        {
+          "english": "colleague",
+          "transcription": "/ˈkɒliːɡ/",
+          "russian": "коллега"
+        },
+        {
+          "english": "remote",
+          "transcription": "/rɪˈməʊt/",
+          "russian": "удалённый"
+        },
+        {
+          "english": "research",
+          "transcription": "/rɪˈsɜːtʃ/",
+          "russian": "исследование"
+        },
+        {
+          "english": "data",
+          "transcription": "/ˈdeɪtə/",
+          "russian": "данные"
+        },
+        {
+          "english": "user",
+          "transcription": "/ˈjuːzə/",
+          "russian": "пользователь"
+        },
+        {
+          "english": "hardware",
+          "transcription": "/ˈhɑːdweə/",
+          "russian": "аппаратное обеспечение"
+        },
+        {
+          "english": "code",
+          "transcription": "/kəʊd/",
+          "russian": "код / программировать"
+        },
+        {
+          "english": "database",
+          "transcription": "/ˈdeɪtəbeɪs/",
+          "russian": "база данных"
+        },
+        {
+          "english": "server",
+          "transcription": "/ˈsɜːvə/",
+          "russian": "сервер"
+        },
+        {
+          "english": "network",
+          "transcription": "/ˈnetwɜːk/",
+          "russian": "сеть"
+        },
+        {
+          "english": "password",
+          "transcription": "/ˈpɑːswɜːd/",
+          "russian": "пароль"
+        },
+        {
+          "english": "screen",
+          "transcription": "/skriːn/",
+          "russian": "экран"
+        },
+        {
+          "english": "mouse",
+          "transcription": "/maʊs/",
+          "russian": "мышь"
+        },
+        {
+          "english": "printer",
+          "transcription": "/ˈprɪntə/",
+          "russian": "принтер"
+        },
+        {
+          "english": "download",
+          "transcription": "/ˈdaʊnləʊd/",
+          "russian": "скачивать"
+        },
+        {
+          "english": "upload",
+          "transcription": "/ˈʌpləʊd/",
+          "russian": "загружать"
+        },
+        {
+          "english": "update",
+          "transcription": "/ˈʌpdeɪt/",
+          "russian": "обновлять"
+        },
+        {
+          "english": "install",
+          "transcription": "/ɪnˈstɔːl/",
+          "russian": "устанавливать"
+        },
+        {
+          "english": "delete",
+          "transcription": "/dɪˈliːt/",
+          "russian": "удалять"
+        },
+        {
+          "english": "save",
+          "transcription": "/seɪv/",
+          "russian": "сохранять"
+        },
+        {
+          "english": "search",
+          "transcription": "/sɜːtʃ/",
+          "russian": "искать"
+        },
+        {
+          "english": "log in",
+          "transcription": "/lɒɡ ɪn/",
+          "russian": "войти в систему"
+        },
+        {
+          "english": "log out",
+          "transcription": "/lɒɡ aʊt/",
+          "russian": "выйти из системы"
+        },
+        {
+          "english": "remote work",
+          "transcription": "/rɪˈməʊt wɜːk/",
+          "russian": "удалённая работа"
+        },
+        {
+          "english": "presentation",
+          "transcription": "/ˌprezənˈteɪʃn/",
+          "russian": "презентация"
+        },
+        {
+          "english": "promotion",
+          "transcription": "/prəˈməʊʃn/",
+          "russian": "повышение"
+        },
+        {
+          "english": "resign",
+          "transcription": "/rɪˈzaɪn/",
+          "russian": "увольняться"
+        },
+        {
+          "english": "hire",
+          "transcription": "/haɪə/",
+          "russian": "нанимать"
+        },
+        {
+          "english": "fire",
+          "transcription": "/faɪə/",
+          "russian": "увольнять"
+        },
+        {
+          "english": "interview",
+          "transcription": "/ˈɪntəvjuː/",
+          "russian": "собеседование"
+        },
+        {
+          "english": "CV / resume",
+          "transcription": "/ˌsiː ˈviː / ˈrezjuːmeɪ/",
+          "russian": "резюме"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Дом",
+      "words": [
+        {
+          "english": "kitchen",
+          "transcription": "/ˈkɪtʃɪn/",
+          "russian": "кухня"
+        },
+        {
+          "english": "bedroom",
+          "transcription": "/ˈbedruːm/",
+          "russian": "спальня"
+        },
+        {
+          "english": "bathroom",
+          "transcription": "/ˈbɑːθruːm/",
+          "russian": "ванная комната"
+        },
+        {
+          "english": "living room",
+          "transcription": "/ˈlɪvɪŋ ruːm/",
+          "russian": "гостиная"
+        },
+        {
+          "english": "garden",
+          "transcription": "/ˈɡɑːdn/",
+          "russian": "сад / двор"
+        },
+        {
+          "english": "flat",
+          "transcription": "/flæt/",
+          "russian": "квартира"
+        },
+        {
+          "english": "floor",
+          "transcription": "/flɔː/",
+          "russian": "пол / этаж"
+        },
+        {
+          "english": "ceiling",
+          "transcription": "/ˈsiːlɪŋ/",
+          "russian": "потолок"
+        },
+        {
+          "english": "wall",
+          "transcription": "/wɔːl/",
+          "russian": "стена"
+        },
+        {
+          "english": "stairs",
+          "transcription": "/steəz/",
+          "russian": "лестница"
+        },
+        {
+          "english": "table",
+          "transcription": "/ˈteɪbl/",
+          "russian": "стол"
+        },
+        {
+          "english": "sofa",
+          "transcription": "/ˈsəʊfə/",
+          "russian": "диван"
+        },
+        {
+          "english": "bed",
+          "transcription": "/bed/",
+          "russian": "кровать"
+        },
+        {
+          "english": "wardrobe",
+          "transcription": "/ˈwɔːdrəʊb/",
+          "russian": "шкаф для одежды"
+        },
+        {
+          "english": "fridge",
+          "transcription": "/frɪdʒ/",
+          "russian": "холодильник"
+        },
+        {
+          "english": "washing machine",
+          "transcription": "/ˈwɒʃɪŋ məˈʃiːn/",
+          "russian": "стиральная машина"
+        },
+        {
+          "english": "lamp",
+          "transcription": "/læmp/",
+          "russian": "лампа"
+        },
+        {
+          "english": "shelf",
+          "transcription": "/ʃelf/",
+          "russian": "полка"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Одежда",
+      "words": [
+        {
+          "english": "shoes",
+          "transcription": "/ʃuːz/",
+          "russian": "туфли / обувь"
+        },
+        {
+          "english": "boots",
+          "transcription": "/buːts/",
+          "russian": "сапоги / ботинки"
+        },
+        {
+          "english": "trainers",
+          "transcription": "/ˈtreɪnəz/",
+          "russian": "кроссовки"
+        },
+        {
+          "english": "jacket",
+          "transcription": "/ˈdʒækɪt/",
+          "russian": "куртка / пиджак"
+        },
+        {
+          "english": "coat",
+          "transcription": "/kəʊt/",
+          "russian": "пальто"
+        },
+        {
+          "english": "trousers",
+          "transcription": "/ˈtraʊzəz/",
+          "russian": "брюки"
+        },
+        {
+          "english": "jeans",
+          "transcription": "/dʒiːnz/",
+          "russian": "джинсы"
+        },
+        {
+          "english": "shirt",
+          "transcription": "/ʃɜːt/",
+          "russian": "рубашка"
+        },
+        {
+          "english": "T-shirt",
+          "transcription": "/ˈtiːʃɜːt/",
+          "russian": "футболка"
+        },
+        {
+          "english": "dress",
+          "transcription": "/dres/",
+          "russian": "платье"
+        },
+        {
+          "english": "skirt",
+          "transcription": "/skɜːt/",
+          "russian": "юбка"
+        },
+        {
+          "english": "jumper",
+          "transcription": "/ˈdʒʌmpə/",
+          "russian": "свитер / джемпер"
+        },
+        {
+          "english": "suit",
+          "transcription": "/suːt/",
+          "russian": "костюм"
+        },
+        {
+          "english": "tie",
+          "transcription": "/taɪ/",
+          "russian": "галстук"
+        },
+        {
+          "english": "scarf",
+          "transcription": "/skɑːf/",
+          "russian": "шарф"
+        },
+        {
+          "english": "hat",
+          "transcription": "/hæt/",
+          "russian": "шляпа / шапка"
+        },
+        {
+          "english": "glasses",
+          "transcription": "/ˈɡlɑːsɪz/",
+          "russian": "очки"
+        },
+        {
+          "english": "uniform",
+          "transcription": "/ˈjuːnɪfɔːm/",
+          "russian": "форма / unifrom"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Разговорные фразы",
+      "words": [
+        {
+          "english": "Can I help you?",
+          "transcription": "/kæn aɪ help juː/",
+          "russian": "Могу я вам помочь?"
+        },
+        {
+          "english": "I'm just looking",
+          "transcription": "/aɪm dʒʌst ˈlʊkɪŋ/",
+          "russian": "Я просто смотрю"
+        },
+        {
+          "english": "How much is it?",
+          "transcription": "/haʊ mʌtʃ ɪz ɪt/",
+          "russian": "Сколько это стоит?"
+        },
+        {
+          "english": "I'll take it",
+          "transcription": "/aɪl teɪk ɪt/",
+          "russian": "Я возьму это"
+        },
+        {
+          "english": "No problem",
+          "transcription": "/nəʊ ˈprɒbləm/",
+          "russian": "Не проблема"
+        },
+        {
+          "english": "Of course",
+          "transcription": "/əv kɔːs/",
+          "russian": "Конечно"
+        },
+        {
+          "english": "I agree",
+          "transcription": "/aɪ əˈɡriː/",
+          "russian": "Я согласен"
+        },
+        {
+          "english": "I disagree",
+          "transcription": "/aɪ ˌdɪsəˈɡriː/",
+          "russian": "Я не согласен"
+        },
+        {
+          "english": "What about you?",
+          "transcription": "/wɒt əˈbaʊt juː/",
+          "russian": "А ты? / А вы?"
+        },
+        {
+          "english": "Nice to meet you",
+          "transcription": "/naɪs tə miːt juː/",
+          "russian": "Приятно познакомиться"
+        },
+        {
+          "english": "How are you?",
+          "transcription": "/haʊ ɑː juː/",
+          "russian": "Как дела?"
+        },
+        {
+          "english": "I'm fine",
+          "transcription": "/aɪm faɪn/",
+          "russian": "Я в порядке"
+        },
+        {
+          "english": "What do you do?",
+          "transcription": "/wɒt duː juː duː/",
+          "russian": "Кем вы работаете?"
+        },
+        {
+          "english": "Where are you from?",
+          "transcription": "/weər ɑː juː frɒm/",
+          "russian": "Откуда вы?"
+        },
+        {
+          "english": "I don't understand",
+          "transcription": "/aɪ dəʊnt ˌʌndəˈstænd/",
+          "russian": "Я не понимаю"
+        },
+        {
+          "english": "Can you repeat that?",
+          "transcription": "/kæn juː rɪˈpiːt ðæt/",
+          "russian": "Можете повторить?"
+        },
+        {
+          "english": "I think...",
+          "transcription": "/aɪ θɪŋk/",
+          "russian": "Я думаю..."
+        },
+        {
+          "english": "In my opinion",
+          "transcription": "/ɪn maɪ əˈpɪnjən/",
+          "russian": "По моему мнению"
+        },
+        {
+          "english": "That's right",
+          "transcription": "/ðæts raɪt/",
+          "russian": "Верно / Правильно"
+        },
+        {
+          "english": "That's wrong",
+          "transcription": "/ðæts rɒŋ/",
+          "russian": "Неверно / Неправильно"
+        },
+        {
+          "english": "Congratulations!",
+          "transcription": "/kənˌɡrætʃuˈleɪʃnz/",
+          "russian": "Поздравляю!"
+        },
+        {
+          "english": "Good luck!",
+          "transcription": "/ɡʊd lʌk/",
+          "russian": "Удачи!"
+        },
+        {
+          "english": "Have fun!",
+          "transcription": "/hæv fʌn/",
+          "russian": "Веселись!"
+        },
+        {
+          "english": "Take care!",
+          "transcription": "/teɪk keə/",
+          "russian": "Береги себя!"
+        },
+        {
+          "english": "See you later!",
+          "transcription": "/siː juː ˈleɪtə/",
+          "russian": "До встречи!"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Тело",
+      "words": [
+        {
+          "english": "head",
+          "transcription": "/hed/",
+          "russian": "голова"
+        },
+        {
+          "english": "face",
+          "transcription": "/feɪs/",
+          "russian": "лицо"
+        },
+        {
+          "english": "eye",
+          "transcription": "/aɪ/",
+          "russian": "глаз"
+        },
+        {
+          "english": "ear",
+          "transcription": "/ɪə/",
+          "russian": "ухо"
+        },
+        {
+          "english": "nose",
+          "transcription": "/nəʊz/",
+          "russian": "нос"
+        },
+        {
+          "english": "mouth",
+          "transcription": "/maʊθ/",
+          "russian": "рот"
+        },
+        {
+          "english": "hair",
+          "transcription": "/heə/",
+          "russian": "волосы"
+        },
+        {
+          "english": "shoulder",
+          "transcription": "/ˈʃəʊldə/",
+          "russian": "плечо"
+        },
+        {
+          "english": "arm",
+          "transcription": "/ɑːm/",
+          "russian": "рука (от плеча)"
+        },
+        {
+          "english": "leg",
+          "transcription": "/leɡ/",
+          "russian": "нога"
+        },
+        {
+          "english": "foot",
+          "transcription": "/fʊt/",
+          "russian": "ступня"
+        },
+        {
+          "english": "stomach",
+          "transcription": "/ˈstʌmək/",
+          "russian": "живот"
+        },
+        {
+          "english": "tooth",
+          "transcription": "/tuːθ/",
+          "russian": "зуб"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Числа",
+      "words": [
+        {
+          "english": "hundred",
+          "transcription": "/ˈhʌndrəd/",
+          "russian": "сто"
+        },
+        {
+          "english": "thousand",
+          "transcription": "/ˈθaʊzənd/",
+          "russian": "тысяча"
+        },
+        {
+          "english": "million",
+          "transcription": "/ˈmɪljən/",
+          "russian": "миллион"
+        },
+        {
+          "english": "half",
+          "transcription": "/hɑːf/",
+          "russian": "половина"
+        },
+        {
+          "english": "quarter",
+          "transcription": "/ˈkwɔːtə/",
+          "russian": "четверть"
+        },
+        {
+          "english": "double",
+          "transcription": "/ˈdʌbl/",
+          "russian": "двойной / двойня"
+        },
+        {
+          "english": "single",
+          "transcription": "/ˈsɪŋɡl/",
+          "russian": "одиночный / холост"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Цвета",
+      "words": [
+        {
+          "english": "dark",
+          "transcription": "/dɑːk/",
+          "russian": "тёмный"
+        },
+        {
+          "english": "bright",
+          "transcription": "/braɪt/",
+          "russian": "яркий"
+        },
+        {
+          "english": "light blue",
+          "transcription": "/laɪt bluː/",
+          "russian": "голубой"
+        },
+        {
+          "english": "dark blue",
+          "transcription": "/dɑːk bluː/",
+          "russian": "тёмно-синий"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Здоровье",
+      "words": [
+        {
+          "english": "headache",
+          "transcription": "/ˈhedeɪk/",
+          "russian": "головная боль"
+        },
+        {
+          "english": "pain",
+          "transcription": "/peɪn/",
+          "russian": "боль"
+        },
+        {
+          "english": "medicine",
+          "transcription": "/ˈmedsn/",
+          "russian": "лекарство"
+        },
+        {
+          "english": "healthy",
+          "transcription": "/ˈhelθi/",
+          "russian": "здоровый"
+        },
+        {
+          "english": "unhealthy",
+          "transcription": "/ʌnˈhelθi/",
+          "russian": "нездоровый"
+        },
+        {
+          "english": "fit",
+          "transcription": "/fɪt/",
+          "russian": "в хорошей форме"
+        },
+        {
+          "english": "gym",
+          "transcription": "/dʒɪm/",
+          "russian": "спортзал"
+        },
+        {
+          "english": "exercise",
+          "transcription": "/ˈeksəsaɪz/",
+          "russian": "упражнение / заниматься"
+        },
+        {
+          "english": "diet",
+          "transcription": "/ˈdaɪət/",
+          "russian": "диета"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Шоппинг",
+      "words": [
+        {
+          "english": "discount",
+          "transcription": "/ˈdɪskaʊnt/",
+          "russian": "скидка"
+        },
+        {
+          "english": "sale",
+          "transcription": "/seɪl/",
+          "russian": "распродажа"
+        },
+        {
+          "english": "receipt",
+          "transcription": "/rɪˈsiːt/",
+          "russian": "чек"
+        },
+        {
+          "english": "cash",
+          "transcription": "/kæʃ/",
+          "russian": "наличные"
+        },
+        {
+          "english": "shopping centre",
+          "transcription": "/ˈʃɒpɪŋ ˌsentə/",
+          "russian": "торговый центр"
+        },
+        {
+          "english": "fitting room",
+          "transcription": "/ˈfɪtɪŋ ruːm/",
+          "russian": "примерочная"
+        },
+        {
+          "english": "medium",
+          "transcription": "/ˈmiːdiəm/",
+          "russian": "средний размер"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Природа и места",
+      "words": [
+        {
+          "english": "beach",
+          "transcription": "/biːtʃ/",
+          "russian": "пляж"
+        },
+        {
+          "english": "sea",
+          "transcription": "/siː/",
+          "russian": "море"
+        },
+        {
+          "english": "river",
+          "transcription": "/ˈrɪvə/",
+          "russian": "река"
+        },
+        {
+          "english": "lake",
+          "transcription": "/leɪk/",
+          "russian": "озеро"
+        },
+        {
+          "english": "forest",
+          "transcription": "/ˈfɒrɪst/",
+          "russian": "лес"
+        },
+        {
+          "english": "island",
+          "transcription": "/ˈaɪlənd/",
+          "russian": "остров"
+        },
+        {
+          "english": "tree",
+          "transcription": "/triː/",
+          "russian": "дерево"
+        },
+        {
+          "english": "flower",
+          "transcription": "/ˈflaʊə/",
+          "russian": "цветок"
+        },
+        {
+          "english": "park",
+          "transcription": "/pɑːk/",
+          "russian": "парк"
+        },
+        {
+          "english": "sky",
+          "transcription": "/skaɪ/",
+          "russian": "небо"
+        },
+        {
+          "english": "sun",
+          "transcription": "/sʌn/",
+          "russian": "солнце"
+        },
+        {
+          "english": "moon",
+          "transcription": "/muːn/",
+          "russian": "луна"
+        },
+        {
+          "english": "star",
+          "transcription": "/stɑː/",
+          "russian": "звезда"
+        },
+        {
+          "english": "ocean",
+          "transcription": "/ˈəʊʃn/",
+          "russian": "океан"
+        },
+        {
+          "english": "hill",
+          "transcription": "/hɪl/",
+          "russian": "холм"
+        },
+        {
+          "english": "valley",
+          "transcription": "/ˈvæli/",
+          "russian": "долина"
+        },
+        {
+          "english": "field",
+          "transcription": "/fiːld/",
+          "russian": "поле"
+        },
+        {
+          "english": "grass",
+          "transcription": "/ɡrɑːs/",
+          "russian": "трава"
+        },
+        {
+          "english": "cloud",
+          "transcription": "/klaʊd/",
+          "russian": "облако"
+        },
+        {
+          "english": "square",
+          "transcription": "/skweə/",
+          "russian": "площадь"
+        },
+        {
+          "english": "bridge",
+          "transcription": "/brɪdʒ/",
+          "russian": "мост"
+        },
+        {
+          "english": "road",
+          "transcription": "/rəʊd/",
+          "russian": "дорога"
+        },
+        {
+          "english": "town",
+          "transcription": "/taʊn/",
+          "russian": "город (небольшой)"
+        },
+        {
+          "english": "capital",
+          "transcription": "/ˈkæpɪtl/",
+          "russian": "столица"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Образование",
+      "words": [
+        {
+          "english": "university",
+          "transcription": "/ˌjuːnɪˈvɜːsɪti/",
+          "russian": "университет"
+        },
+        {
+          "english": "course",
+          "transcription": "/kɔːs/",
+          "russian": "курс"
+        },
+        {
+          "english": "lesson",
+          "transcription": "/ˈlesn/",
+          "russian": "урок"
+        },
+        {
+          "english": "class",
+          "transcription": "/klɑːs/",
+          "russian": "класс / группа"
+        },
+        {
+          "english": "test",
+          "transcription": "/test/",
+          "russian": "тест"
+        },
+        {
+          "english": "exam",
+          "transcription": "/ɪɡˈzæm/",
+          "russian": "экзамен"
+        },
+        {
+          "english": "homework",
+          "transcription": "/ˈhəʊmwɜːk/",
+          "russian": "домашнее задание"
+        },
+        {
+          "english": "subject",
+          "transcription": "/ˈsʌbdʒɪkt/",
+          "russian": "предмет"
+        },
+        {
+          "english": "history",
+          "transcription": "/ˈhɪstri/",
+          "russian": "история"
+        },
+        {
+          "english": "science",
+          "transcription": "/ˈsaɪəns/",
+          "russian": "наука"
+        },
+        {
+          "english": "mathematics",
+          "transcription": "/ˌmæθəˈmætɪks/",
+          "russian": "математика"
+        },
+        {
+          "english": "English",
+          "transcription": "/ˈɪŋɡlɪʃ/",
+          "russian": "английский язык"
+        },
+        {
+          "english": "grade",
+          "transcription": "/ɡreɪd/",
+          "russian": "оценка"
+        },
+        {
+          "english": "college",
+          "transcription": "/ˈkɒlɪdʒ/",
+          "russian": "колледж"
+        },
+        {
+          "english": "pass",
+          "transcription": "/pɑːs/",
+          "russian": "сдать (экзамен)"
+        },
+        {
+          "english": "fail",
+          "transcription": "/feɪl/",
+          "russian": "провалить (экзамен)"
+        },
+        {
+          "english": "literature",
+          "transcription": "/ˈlɪtrətʃə/",
+          "russian": "литература"
+        },
+        {
+          "english": "scholarship",
+          "transcription": "/ˈskɒləʃɪp/",
+          "russian": "стипендия"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Развлечения",
+      "words": [
+        {
+          "english": "cinema",
+          "transcription": "/ˈsɪnəmə/",
+          "russian": "кино / кинотеатр"
+        },
+        {
+          "english": "theatre",
+          "transcription": "/ˈθɪətə/",
+          "russian": "театр"
+        },
+        {
+          "english": "museum",
+          "transcription": "/mjuːˈziːəm/",
+          "russian": "музей"
+        },
+        {
+          "english": "gallery",
+          "transcription": "/ˈɡæləri/",
+          "russian": "галерея"
+        },
+        {
+          "english": "exhibition",
+          "transcription": "/ˌeksɪˈbɪʃn/",
+          "russian": "выставка"
+        },
+        {
+          "english": "party",
+          "transcription": "/ˈpɑːti/",
+          "russian": "вечеринка"
+        },
+        {
+          "english": "hobby",
+          "transcription": "/ˈhɒbi/",
+          "russian": "хобби"
+        },
+        {
+          "english": "video game",
+          "transcription": "/ˈvɪdiəʊ ɡeɪm/",
+          "russian": "видеоигра"
+        },
+        {
+          "english": "series",
+          "transcription": "/ˈsɪəriːz/",
+          "russian": "сериал"
+        },
+        {
+          "english": "magazine",
+          "transcription": "/ˌmæɡəˈziːn/",
+          "russian": "журнал"
+        },
+        {
+          "english": "newspaper",
+          "transcription": "/ˈnjuːzpeɪpə/",
+          "russian": "газета"
+        },
+        {
+          "english": "dance",
+          "transcription": "/dɑːns/",
+          "russian": "танцевать / танец"
+        },
+        {
+          "english": "paint",
+          "transcription": "/peɪnt/",
+          "russian": "рисовать (красками)"
+        },
+        {
+          "english": "draw",
+          "transcription": "/drɔː/",
+          "russian": "рисовать (карандашом)"
+        },
+        {
+          "english": "photograph",
+          "transcription": "/ˈfəʊtəɡrɑːf/",
+          "russian": "фотографировать"
+        },
+        {
+          "english": "travelling",
+          "transcription": "/ˈtrævəlɪŋ/",
+          "russian": "путешествия"
+        },
+        {
+          "english": "camping",
+          "transcription": "/ˈkæmpɪŋ/",
+          "russian": "кемпинг"
+        },
+        {
+          "english": "hiking",
+          "transcription": "/ˈhaɪkɪŋ/",
+          "russian": "пешие прогулки"
+        },
+        {
+          "english": "swimming",
+          "transcription": "/ˈswɪmɪŋ/",
+          "russian": "плавание"
+        },
+        {
+          "english": "cycling",
+          "transcription": "/ˈsaɪklɪŋ/",
+          "russian": "езда на велосипеде"
+        },
+        {
+          "english": "football",
+          "transcription": "/ˈfʊtbɔːl/",
+          "russian": "футбол"
+        },
+        {
+          "english": "basketball",
+          "transcription": "/ˈbɑːskɪtbɔːl/",
+          "russian": "баскетбол"
+        },
+        {
+          "english": "tennis",
+          "transcription": "/ˈtenɪs/",
+          "russian": "теннис"
+        },
+        {
+          "english": "yoga",
+          "transcription": "/ˈjəʊɡə/",
+          "russian": "йога"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Обсуждение",
+      "words": [
+        {
+          "english": "opinion",
+          "transcription": "/əˈpɪnjən/",
+          "russian": "мнение"
+        },
+        {
+          "english": "agree",
+          "transcription": "/əˈɡriː/",
+          "russian": "соглашаться"
+        },
+        {
+          "english": "disagree",
+          "transcription": "/ˌdɪsəˈɡriː/",
+          "russian": "не соглашаться"
+        },
+        {
+          "english": "reason",
+          "transcription": "/ˈriːzn/",
+          "russian": "причина"
+        },
+        {
+          "english": "example",
+          "transcription": "/ɪɡˈzɑːmpl/",
+          "russian": "пример"
+        },
+        {
+          "english": "solution",
+          "transcription": "/səˈluːʃn/",
+          "russian": "решение"
+        },
+        {
+          "english": "plan",
+          "transcription": "/plæn/",
+          "russian": "план"
+        },
+        {
+          "english": "decision",
+          "transcription": "/dɪˈsɪʒn/",
+          "russian": "решение (принятое)"
+        },
+        {
+          "english": "choice",
+          "transcription": "/tʃɔɪs/",
+          "russian": "выбор"
+        },
+        {
+          "english": "result",
+          "transcription": "/rɪˈzʌlt/",
+          "russian": "результат"
+        },
+        {
+          "english": "experience",
+          "transcription": "/ɪkˈspɪəriəns/",
+          "russian": "опыт"
+        },
+        {
+          "english": "advice",
+          "transcription": "/ədˈvaɪs/",
+          "russian": "совет"
+        },
+        {
+          "english": "suggestion",
+          "transcription": "/səˈdʒestʃən/",
+          "russian": "предложение"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Грамматика",
+      "words": [
+        {
+          "english": "this",
+          "transcription": "/ðɪs/",
+          "russian": "этот / эта / это"
+        },
+        {
+          "english": "that",
+          "transcription": "/ðæt/",
+          "russian": "тот / та / то"
+        },
+        {
+          "english": "these",
+          "transcription": "/ðiːz/",
+          "russian": "эти"
+        },
+        {
+          "english": "those",
+          "transcription": "/ðəʊz/",
+          "russian": "те"
+        },
+        {
+          "english": "some",
+          "transcription": "/sʌm/",
+          "russian": "некоторые / немного"
+        },
+        {
+          "english": "any",
+          "transcription": "/ˈeni/",
+          "russian": "какой-нибудь / никакой"
+        },
+        {
+          "english": "no",
+          "transcription": "/nəʊ/",
+          "russian": "никакой / нет"
+        },
+        {
+          "english": "every",
+          "transcription": "/ˈevri/",
+          "russian": "каждый"
+        },
+        {
+          "english": "all",
+          "transcription": "/ɔːl/",
+          "russian": "все / всё"
+        },
+        {
+          "english": "both",
+          "transcription": "/bəʊθ/",
+          "russian": "оба"
+        },
+        {
+          "english": "many",
+          "transcription": "/ˈmeni/",
+          "russian": "много (исчисляемые)"
+        },
+        {
+          "english": "much",
+          "transcription": "/mʌtʃ/",
+          "russian": "много (неисчисляемые)"
+        },
+        {
+          "english": "few",
+          "transcription": "/fjuː/",
+          "russian": "мало (исчисляемые)"
+        },
+        {
+          "english": "a lot of",
+          "transcription": "/ə lɒt əv/",
+          "russian": "много"
+        },
+        {
+          "english": "a few",
+          "transcription": "/ə fjuː/",
+          "russian": "несколько"
+        },
+        {
+          "english": "a little",
+          "transcription": "/ə ˈlɪtl/",
+          "russian": "немного"
+        },
+        {
+          "english": "there is",
+          "transcription": "/ðeər ɪz/",
+          "russian": "есть (ед.ч.)"
+        },
+        {
+          "english": "there are",
+          "transcription": "/ðeər ɑː/",
+          "russian": "есть (мн.ч.)"
+        },
+        {
+          "english": "I",
+          "transcription": "/aɪ/",
+          "russian": "я"
+        },
+        {
+          "english": "you",
+          "transcription": "/juː/",
+          "russian": "ты / вы"
+        },
+        {
+          "english": "he",
+          "transcription": "/hiː/",
+          "russian": "он"
+        },
+        {
+          "english": "she",
+          "transcription": "/ʃiː/",
+          "russian": "она"
+        },
+        {
+          "english": "it",
+          "transcription": "/ɪt/",
+          "russian": "оно / это"
+        },
+        {
+          "english": "we",
+          "transcription": "/wiː/",
+          "russian": "мы"
+        },
+        {
+          "english": "they",
+          "transcription": "/ðeɪ/",
+          "russian": "они"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Полезные фразы",
+      "words": [
+        {
+          "english": "How long?",
+          "transcription": "/haʊ lɒŋ/",
+          "russian": "Как долго?"
+        },
+        {
+          "english": "How far?",
+          "transcription": "/haʊ fɑː/",
+          "russian": "Как далеко?"
+        },
+        {
+          "english": "How old?",
+          "transcription": "/haʊ əʊld/",
+          "russian": "Сколько лет?"
+        },
+        {
+          "english": "What time?",
+          "transcription": "/wɒt taɪm/",
+          "russian": "В какое время?"
+        },
+        {
+          "english": "What's your name?",
+          "transcription": "/wɒts jɔː neɪm/",
+          "russian": "Как вас зовут?"
+        },
+        {
+          "english": "Where do you live?",
+          "transcription": "/weə duː juː lɪv/",
+          "russian": "Где вы живёте?"
+        },
+        {
+          "english": "I'd like",
+          "transcription": "/aɪd laɪk/",
+          "russian": "Я бы хотел"
+        },
+        {
+          "english": "Would you like?",
+          "transcription": "/wʊd juː laɪk/",
+          "russian": "Хотели бы вы?"
+        },
+        {
+          "english": "Can I have?",
+          "transcription": "/kæn aɪ hæv/",
+          "russian": "Можно мне?"
+        },
+        {
+          "english": "How about?",
+          "transcription": "/haʊ əˈbaʊt/",
+          "russian": "Как насчёт?"
+        },
+        {
+          "english": "What about?",
+          "transcription": "/wɒt əˈbaʊt/",
+          "russian": "А что насчёт?"
+        },
+        {
+          "english": "I'm not sure",
+          "transcription": "/aɪm nɒt ʃʊə/",
+          "russian": "Я не уверен"
+        },
+        {
+          "english": "Me too",
+          "transcription": "/miː tuː/",
+          "russian": "Я тоже"
+        },
+        {
+          "english": "Me neither",
+          "transcription": "/miː ˈnaɪðə/",
+          "russian": "Я тоже нет"
+        },
+        {
+          "english": "That's OK",
+          "transcription": "/ðæts əʊˈkeɪ/",
+          "russian": "Всё в порядке"
+        },
+        {
+          "english": "Don't worry",
+          "transcription": "/dəʊnt ˈwʌri/",
+          "russian": "Не беспокойся"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "что да\",Полезные фразы",
+      "words": [
+        {
+          "english": "I hope so",
+          "transcription": "/aɪ həʊp səʊ/",
+          "russian": "Надеюсь"
+        },
+        {
+          "english": "I think so",
+          "transcription": "/aɪ θɪŋk səʊ/",
+          "russian": "Думаю"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Неправильные глаголы",
+      "words": [
+        {
+          "english": "go - went - gone",
+          "transcription": "/ɡəʊ - went - ɡɒn/",
+          "russian": "идти - шёл - пошёл"
+        },
+        {
+          "english": "come - came - come",
+          "transcription": "/kʌm - keɪm - kʌm/",
+          "russian": "приходить - пришёл"
+        },
+        {
+          "english": "get - got - got",
+          "transcription": "/ɡet - ɡɒt - ɡɒt/",
+          "russian": "получать - получил"
+        },
+        {
+          "english": "make - made - made",
+          "transcription": "/meɪk - meɪd - meɪd/",
+          "russian": "делать - сделал"
+        },
+        {
+          "english": "take - took - taken",
+          "transcription": "/teɪk - tʊk - ˈteɪkən/",
+          "russian": "брать - взял"
+        },
+        {
+          "english": "see - saw - seen",
+          "transcription": "/siː - sɔː - siːn/",
+          "russian": "видеть - видел"
+        },
+        {
+          "english": "know - knew - known",
+          "transcription": "/nəʊ - njuː - nəʊn/",
+          "russian": "знать - знал"
+        },
+        {
+          "english": "give - gave - given",
+          "transcription": "/ɡɪv - ɡeɪv - ˈɡɪvən/",
+          "russian": "давать - дал"
+        },
+        {
+          "english": "find - found - found",
+          "transcription": "/faɪnd - faʊnd - faʊnd/",
+          "russian": "находить - нашёл"
+        },
+        {
+          "english": "think - thought - thought",
+          "transcription": "/θɪŋk - θɔːt - θɔːt/",
+          "russian": "думать - думал"
+        },
+        {
+          "english": "tell - told - told",
+          "transcription": "/tel - təʊld - təʊld/",
+          "russian": "говорить - сказал"
+        },
+        {
+          "english": "say - said - said",
+          "transcription": "/seɪ - sed - sed/",
+          "russian": "говорить - сказал"
+        },
+        {
+          "english": "buy - bought - bought",
+          "transcription": "/baɪ - bɔːt - bɔːt/",
+          "russian": "покупать - купил"
+        },
+        {
+          "english": "bring - brought - brought",
+          "transcription": "/brɪŋ - brɔːt - brɔːt/",
+          "russian": "приносить - принёс"
+        },
+        {
+          "english": "write - wrote - written",
+          "transcription": "/raɪt - rəʊt - ˈrɪtn/",
+          "russian": "писать - написал"
+        },
+        {
+          "english": "read - read - read",
+          "transcription": "/riːd - red - red/",
+          "russian": "читать - читал"
+        },
+        {
+          "english": "run - ran - run",
+          "transcription": "/rʌn - ræn - rʌn/",
+          "russian": "бежать - бежал"
+        },
+        {
+          "english": "eat - ate - eaten",
+          "transcription": "/iːt - eɪt - ˈiːtn/",
+          "russian": "есть - ел"
+        },
+        {
+          "english": "drink - drank - drunk",
+          "transcription": "/drɪŋk - dræŋk - drʌŋk/",
+          "russian": "пить - пил"
+        },
+        {
+          "english": "sleep - slept - slept",
+          "transcription": "/sliːp - slept - slept/",
+          "russian": "спать - спал"
+        },
+        {
+          "english": "drive - drove - driven",
+          "transcription": "/draɪv - drəʊv - ˈdrɪvən/",
+          "russian": "водить - вёл"
+        },
+        {
+          "english": "wear - wore - worn",
+          "transcription": "/weə - wɔː - wɔːn/",
+          "russian": "носить - носил"
+        },
+        {
+          "english": "speak - spoke - spoken",
+          "transcription": "/spiːk - spəʊk - ˈspəʊkən/",
+          "russian": "говорить - говорил"
+        },
+        {
+          "english": "leave - left - left",
+          "transcription": "/liːv - left - left/",
+          "russian": "уходить - ушёл"
+        },
+        {
+          "english": "feel - felt - felt",
+          "transcription": "/fiːl - felt - felt/",
+          "russian": "чувствовать - чувствовал"
+        },
+        {
+          "english": "meet - met - met",
+          "transcription": "/miːt - met - met/",
+          "russian": "встречать - встретил"
+        },
+        {
+          "english": "sit - sat - sat",
+          "transcription": "/sɪt - sæt - sæt/",
+          "russian": "сидеть - сидел"
+        },
+        {
+          "english": "stand - stood - stood",
+          "transcription": "/stænd - stʊd - stʊd/",
+          "russian": "стоять - стоял"
+        },
+        {
+          "english": "lose - lost - lost",
+          "transcription": "/luːz - lɒst - lɒst/",
+          "russian": "терять - потерял"
+        },
+        {
+          "english": "win - won - won",
+          "transcription": "/wɪn - wʌn - wʌn/",
+          "russian": "побеждать - победил"
+        },
+        {
+          "english": "hear - heard - heard",
+          "transcription": "/hɪə - hɜːd - hɜːd/",
+          "russian": "слышать - слышал"
+        },
+        {
+          "english": "understand - understood",
+          "transcription": "/ˌʌndəˈstænd - ˌʌndəˈstʊd/",
+          "russian": "понимать - понял"
+        },
+        {
+          "english": "swim - swam - swum",
+          "transcription": "/swɪm - swæm - swʌm/",
+          "russian": "плавать - плавал"
+        },
+        {
+          "english": "sing - sang - sung",
+          "transcription": "/sɪŋ - sæŋ - sʌŋ/",
+          "russian": "петь - пел"
+        },
+        {
+          "english": "begin - began - begun",
+          "transcription": "/bɪˈɡɪn - bɪˈɡæn - bɪˈɡʌn/",
+          "russian": "начинать - начал"
+        },
+        {
+          "english": "break - broke - broken",
+          "transcription": "/breɪk - brəʊk - ˈbrəʊkən/",
+          "russian": "ломать - сломал"
+        },
+        {
+          "english": "build - built - built",
+          "transcription": "/bɪld - bɪlt - bɪlt/",
+          "russian": "строить - построил"
+        },
+        {
+          "english": "choose - chose - chosen",
+          "transcription": "/tʃuːz - tʃəʊz - ˈtʃəʊzən/",
+          "russian": "выбирать - выбрал"
+        },
+        {
+          "english": "fall - fell - fallen",
+          "transcription": "/fɔːl - fel - ˈfɔːlən/",
+          "russian": "падать - упал"
+        },
+        {
+          "english": "fly - flew - flown",
+          "transcription": "/flaɪ - fluː - fləʊn/",
+          "russian": "лететь - летел"
+        },
+        {
+          "english": "forget - forgot - forgotten",
+          "transcription": "/fəˈɡet - fəˈɡɒt - fəˈɡɒtn/",
+          "russian": "забывать - забыл"
+        },
+        {
+          "english": "grow - grew - grown",
+          "transcription": "/ɡrəʊ - ɡruː - ɡrəʊn/",
+          "russian": "расти - рос"
+        },
+        {
+          "english": "keep - kept - kept",
+          "transcription": "/kiːp - kept - kept/",
+          "russian": "держать - держал"
+        },
+        {
+          "english": "pay - paid - paid",
+          "transcription": "/peɪ - peɪd - peɪd/",
+          "russian": "платить - платил"
+        },
+        {
+          "english": "put - put - put",
+          "transcription": "/pʊt - pʊt - pʊt/",
+          "russian": "класть - положил"
+        },
+        {
+          "english": "send - sent - sent",
+          "transcription": "/send - sent - sent/",
+          "russian": "отправлять - отправил"
+        },
+        {
+          "english": "spend - spent - spent",
+          "transcription": "/spend - spent - spent/",
+          "russian": "тратить - потратил"
+        },
+        {
+          "english": "teach - taught - taught",
+          "transcription": "/tiːtʃ - tɔːt - tɔːt/",
+          "russian": "учить - учил"
+        },
+        {
+          "english": "catch - caught - caught",
+          "transcription": "/kætʃ - kɔːt - kɔːt/",
+          "russian": "ловить - поймал"
+        },
+        {
+          "english": "have - had - had",
+          "transcription": "/hæv - hæd - hæd/",
+          "russian": "иметь - имел"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Прилагательные",
+      "words": [
+        {
+          "english": "amazing",
+          "transcription": "/əˈmeɪzɪŋ/",
+          "russian": "удивительный"
+        },
+        {
+          "english": "terrible",
+          "transcription": "/ˈterəbl/",
+          "russian": "ужасный"
+        },
+        {
+          "english": "fantastic",
+          "transcription": "/fænˈtæstɪk/",
+          "russian": "фантастический"
+        },
+        {
+          "english": "perfect",
+          "transcription": "/ˈpɜːfɪkt/",
+          "russian": "идеальный"
+        },
+        {
+          "english": "modern",
+          "transcription": "/ˈmɒdn/",
+          "russian": "современный"
+        },
+        {
+          "english": "traditional",
+          "transcription": "/trəˈdɪʃənl/",
+          "russian": "традиционный"
+        },
+        {
+          "english": "international",
+          "transcription": "/ˌɪntəˈnæʃənl/",
+          "russian": "международный"
+        },
+        {
+          "english": "national",
+          "transcription": "/ˈnæʃənl/",
+          "russian": "национальный"
+        },
+        {
+          "english": "closed",
+          "transcription": "/kləʊzd/",
+          "russian": "закрытый"
+        },
+        {
+          "english": "public",
+          "transcription": "/ˈpʌblɪk/",
+          "russian": "общественный"
+        },
+        {
+          "english": "private",
+          "transcription": "/ˈpraɪvɪt/",
+          "russian": "частный"
+        },
+        {
+          "english": "main",
+          "transcription": "/meɪn/",
+          "russian": "главный"
+        },
+        {
+          "english": "next",
+          "transcription": "/nekst/",
+          "russian": "следующий"
+        },
+        {
+          "english": "last",
+          "transcription": "/lɑːst/",
+          "russian": "последний / прошлый"
+        },
+        {
+          "english": "lucky",
+          "transcription": "/ˈlʌki/",
+          "russian": "удачливый"
+        },
+        {
+          "english": "clever",
+          "transcription": "/ˈklevə/",
+          "russian": "умный"
+        },
+        {
+          "english": "kind",
+          "transcription": "/kaɪnd/",
+          "russian": "добрый"
+        },
+        {
+          "english": "friendly",
+          "transcription": "/ˈfrendli/",
+          "russian": "дружелюбный"
+        },
+        {
+          "english": "polite",
+          "transcription": "/pəˈlaɪt/",
+          "russian": "вежливый"
+        },
+        {
+          "english": "rude",
+          "transcription": "/ruːd/",
+          "russian": "грубый"
+        },
+        {
+          "english": "shy",
+          "transcription": "/ʃaɪ/",
+          "russian": "застенчивый"
+        },
+        {
+          "english": "brave",
+          "transcription": "/breɪv/",
+          "russian": "смелый"
+        },
+        {
+          "english": "honest",
+          "transcription": "/ˈɒnɪst/",
+          "russian": "честный"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Дополнительные",
+      "words": [
+        {
+          "english": "achievement",
+          "transcription": "/əˈtʃiːvmənt/",
+          "russian": "достижение"
+        },
+        {
+          "english": "advantage",
+          "transcription": "/ədˈvɑːntɪdʒ/",
+          "russian": "преимущество"
+        },
+        {
+          "english": "disadvantage",
+          "transcription": "/ˌdɪsədˈvɑːntɪdʒ/",
+          "russian": "недостаток"
+        },
+        {
+          "english": "attitude",
+          "transcription": "/ˈætɪtjuːd/",
+          "russian": "отношение / позиция"
+        },
+        {
+          "english": "behaviour",
+          "transcription": "/bɪˈheɪvjə/",
+          "russian": "поведение"
+        },
+        {
+          "english": "culture",
+          "transcription": "/ˈkʌltʃə/",
+          "russian": "культура"
+        },
+        {
+          "english": "environment",
+          "transcription": "/ɪnˈvaɪrənmənt/",
+          "russian": "окружающая среда"
+        },
+        {
+          "english": "generation",
+          "transcription": "/ˌdʒenəˈreɪʃn/",
+          "russian": "поколение"
+        },
+        {
+          "english": "opportunity",
+          "transcription": "/ˌɒpəˈtjuːnɪti/",
+          "russian": "возможность"
+        },
+        {
+          "english": "relationship",
+          "transcription": "/rɪˈleɪʃnʃɪp/",
+          "russian": "отношения"
+        },
+        {
+          "english": "situation",
+          "transcription": "/ˌsɪtʃuˈeɪʃn/",
+          "russian": "ситуация"
+        },
+        {
+          "english": "technology",
+          "transcription": "/tekˈnɒlədʒi/",
+          "russian": "технология"
+        },
+        {
+          "english": "tradition",
+          "transcription": "/trəˈdɪʃn/",
+          "russian": "традиция"
+        },
+        {
+          "english": "value",
+          "transcription": "/ˈvæljuː/",
+          "russian": "ценность / стоимость"
+        },
+        {
+          "english": "effort",
+          "transcription": "/ˈefət/",
+          "russian": "усилие"
+        },
+        {
+          "english": "progress",
+          "transcription": "/ˈprəʊɡres/",
+          "russian": "прогресс"
+        },
+        {
+          "english": "success",
+          "transcription": "/səkˈses/",
+          "russian": "успех"
+        },
+        {
+          "english": "failure",
+          "transcription": "/ˈfeɪljə/",
+          "russian": "неудача"
+        },
+        {
+          "english": "memory",
+          "transcription": "/ˈmeməri/",
+          "russian": "память / воспоминание"
+        },
+        {
+          "english": "future",
+          "transcription": "/ˈfjuːtʃə/",
+          "russian": "будущее"
+        },
+        {
+          "english": "past",
+          "transcription": "/pɑːst/",
+          "russian": "прошлое"
+        },
+        {
+          "english": "present",
+          "transcription": "/ˈpreznt/",
+          "russian": "настоящее / подарок"
+        },
+        {
+          "english": "moment",
+          "transcription": "/ˈməʊmənt/",
+          "russian": "момент"
+        },
+        {
+          "english": "century",
+          "transcription": "/ˈsentʃəri/",
+          "russian": "век"
+        },
+        {
+          "english": "recently",
+          "transcription": "/ˈriːsntli/",
+          "russian": "недавно"
+        },
+        {
+          "english": "suddenly",
+          "transcription": "/ˈsʌdənli/",
+          "russian": "внезапно"
+        },
+        {
+          "english": "finally",
+          "transcription": "/ˈfaɪnəli/",
+          "russian": "наконец"
+        },
+        {
+          "english": "actually",
+          "transcription": "/ˈæktʃuəli/",
+          "russian": "на самом деле"
+        },
+        {
+          "english": "especially",
+          "transcription": "/ɪˈspeʃəli/",
+          "russian": "особенно"
+        },
+        {
+          "english": "exactly",
+          "transcription": "/ɪɡˈzæktli/",
+          "russian": "именно / точно"
+        },
+        {
+          "english": "generally",
+          "transcription": "/ˈdʒenrəli/",
+          "russian": "в целом / обычно"
+        },
+        {
+          "english": "immediately",
+          "transcription": "/ɪˈmiːdiətli/",
+          "russian": "немедленно"
+        },
+        {
+          "english": "mainly",
+          "transcription": "/ˈmeɪnli/",
+          "russian": "главным образом"
+        },
+        {
+          "english": "simply",
+          "transcription": "/ˈsɪmpli/",
+          "russian": "просто"
+        },
+        {
+          "english": "totally",
+          "transcription": "/ˈtəʊtəli/",
+          "russian": "полностью"
+        },
+        {
+          "english": "completely",
+          "transcription": "/kəmˈpliːtli/",
+          "russian": "полностью"
+        },
+        {
+          "english": "absolutely",
+          "transcription": "/ˈæbsəluːtli/",
+          "russian": "абсолютно"
+        },
+        {
+          "english": "careful",
+          "transcription": "/ˈkeəfl/",
+          "russian": "осторожный"
+        },
+        {
+          "english": "careless",
+          "transcription": "/ˈkeələs/",
+          "russian": "небрежный"
+        },
+        {
+          "english": "useful",
+          "transcription": "/ˈjuːsfl/",
+          "russian": "полезный"
+        },
+        {
+          "english": "useless",
+          "transcription": "/ˈjuːsləs/",
+          "russian": "бесполезный"
+        },
+        {
+          "english": "successful",
+          "transcription": "/səkˈsesfʊl/",
+          "russian": "успешный"
+        },
+        {
+          "english": "powerful",
+          "transcription": "/ˈpaʊəfl/",
+          "russian": "мощный / влиятельный"
+        },
+        {
+          "english": "peaceful",
+          "transcription": "/ˈpiːsfl/",
+          "russian": "мирный / спокойный"
+        },
+        {
+          "english": "colourful",
+          "transcription": "/ˈkʌləfl/",
+          "russian": "красочный"
+        },
+        {
+          "english": "connect",
+          "transcription": "/kəˈnekt/",
+          "russian": "соединять / подключать"
+        },
+        {
+          "english": "communicate",
+          "transcription": "/kəˈmjuːnɪkeɪt/",
+          "russian": "общаться"
+        },
+        {
+          "english": "celebrate",
+          "transcription": "/ˈselɪbreɪt/",
+          "russian": "праздновать"
+        },
+        {
+          "english": "describe",
+          "transcription": "/dɪˈskraɪb/",
+          "russian": "описывать"
+        },
+        {
+          "english": "explain",
+          "transcription": "/ɪkˈspleɪn/",
+          "russian": "объяснять"
+        },
+        {
+          "english": "imagine",
+          "transcription": "/ɪˈmædʒɪn/",
+          "russian": "воображать"
+        },
+        {
+          "english": "include",
+          "transcription": "/ɪnˈkluːd/",
+          "russian": "включать"
+        },
+        {
+          "english": "introduce",
+          "transcription": "/ˌɪntrəˈdjuːs/",
+          "russian": "представлять / вводить"
+        },
+        {
+          "english": "mention",
+          "transcription": "/ˈmenʃn/",
+          "russian": "упоминать"
+        },
+        {
+          "english": "offer",
+          "transcription": "/ˈɒfə/",
+          "russian": "предлагать"
+        },
+        {
+          "english": "prepare",
+          "transcription": "/prɪˈpeə/",
+          "russian": "готовить / готовиться"
+        },
+        {
+          "english": "promise",
+          "transcription": "/ˈprɒmɪs/",
+          "russian": "обещать"
+        },
+        {
+          "english": "recommend",
+          "transcription": "/ˌrekəˈmend/",
+          "russian": "рекомендовать"
+        },
+        {
+          "english": "suppose",
+          "transcription": "/səˈpəʊz/",
+          "russian": "предполагать"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Числа и время",
+      "words": [
+        {
+          "english": "zero",
+          "transcription": "/ˈzɪərəʊ/",
+          "russian": "ноль"
+        },
+        {
+          "english": "one",
+          "transcription": "/wʌn/",
+          "russian": "один"
+        },
+        {
+          "english": "two",
+          "transcription": "/tuː/",
+          "russian": "два"
+        },
+        {
+          "english": "three",
+          "transcription": "/θriː/",
+          "russian": "три"
+        },
+        {
+          "english": "four",
+          "transcription": "/fɔː/",
+          "russian": "четыре"
+        },
+        {
+          "english": "five",
+          "transcription": "/faɪv/",
+          "russian": "пять"
+        },
+        {
+          "english": "ten",
+          "transcription": "/ten/",
+          "russian": "десять"
+        },
+        {
+          "english": "twenty",
+          "transcription": "/ˈtwenti/",
+          "russian": "двадцать"
+        },
+        {
+          "english": "thirty",
+          "transcription": "/ˈθɜːti/",
+          "russian": "тридцать"
+        },
+        {
+          "english": "forty",
+          "transcription": "/ˈfɔːti/",
+          "russian": "сорок"
+        },
+        {
+          "english": "fifty",
+          "transcription": "/ˈfɪfti/",
+          "russian": "пятьдесят"
+        },
+        {
+          "english": "second (time)",
+          "transcription": "/ˈsekənd/",
+          "russian": "секунда"
+        },
+        {
+          "english": "o'clock",
+          "transcription": "/əˈklɒk/",
+          "russian": "часов (ровно)"
+        },
+        {
+          "english": "half past",
+          "transcription": "/hɑːf pɑːst/",
+          "russian": "полчаса"
+        },
+        {
+          "english": "quarter past",
+          "transcription": "/ˈkwɔːtə pɑːst/",
+          "russian": "четверть после"
+        },
+        {
+          "english": "quarter to",
+          "transcription": "/ˈkwɔːtə tuː/",
+          "russian": "без четверти"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Дни, месяцы и время",
+      "words": [
+        {
+          "english": "last night",
+          "transcription": "/lɑːst naɪt/",
+          "russian": "прошлой ночью"
+        },
+        {
+          "english": "two days ago",
+          "transcription": "/tuː deɪz əˈɡəʊ/",
+          "russian": "два дня назад"
+        },
+        {
+          "english": "in the morning",
+          "transcription": "/ɪn ðə ˈmɔːnɪŋ/",
+          "russian": "утром"
+        },
+        {
+          "english": "in the afternoon",
+          "transcription": "/ɪn ðə ˌɑːftəˈnuːn/",
+          "russian": "днём"
+        },
+        {
+          "english": "in the evening",
+          "transcription": "/ɪn ðə ˈiːvnɪŋ/",
+          "russian": "вечером"
+        },
+        {
+          "english": "at night",
+          "transcription": "/æt naɪt/",
+          "russian": "ночью"
+        },
+        {
+          "english": "at the weekend",
+          "transcription": "/æt ðə ˌwiːkˈend/",
+          "russian": "в выходные"
+        },
+        {
+          "english": "on weekdays",
+          "transcription": "/ɒn ˈwiːkdeɪz/",
+          "russian": "по будням"
+        },
+        {
+          "english": "soon",
+          "transcription": "/suːn/",
+          "russian": "скоро"
+        },
+        {
+          "english": "yet",
+          "transcription": "/jet/",
+          "russian": "ещё (в вопросах/отрицаниях)"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Описание людей и характер",
+      "words": [
+        {
+          "english": "slim",
+          "transcription": "/slɪm/",
+          "russian": "стройный"
+        },
+        {
+          "english": "overweight",
+          "transcription": "/ˌəʊvəˈweɪt/",
+          "russian": "с избыточным весом"
+        },
+        {
+          "english": "middle-aged",
+          "transcription": "/ˌmɪdl ˈeɪdʒd/",
+          "russian": "среднего возраста"
+        },
+        {
+          "english": "elderly",
+          "transcription": "/ˈeldəli/",
+          "russian": "пожилой"
+        },
+        {
+          "english": "curly",
+          "transcription": "/ˈkɜːli/",
+          "russian": "кудрявый"
+        },
+        {
+          "english": "straight",
+          "transcription": "/streɪt/",
+          "russian": "прямой (о волосах)"
+        },
+        {
+          "english": "blonde",
+          "transcription": "/blɒnd/",
+          "russian": "светловолосый / блондин"
+        },
+        {
+          "english": "brunette",
+          "transcription": "/bruːˈnet/",
+          "russian": "брюнет/брюнетка"
+        },
+        {
+          "english": "beard",
+          "transcription": "/bɪəd/",
+          "russian": "борода"
+        },
+        {
+          "english": "moustache",
+          "transcription": "/məˈstɑːʃ/",
+          "russian": "усы"
+        },
+        {
+          "english": "lazy",
+          "transcription": "/ˈleɪzi/",
+          "russian": "ленивый"
+        },
+        {
+          "english": "hardworking",
+          "transcription": "/ˌhɑːdˈwɜːkɪŋ/",
+          "russian": "трудолюбивый"
+        },
+        {
+          "english": "patient",
+          "transcription": "/ˈpeɪʃnt/",
+          "russian": "терпеливый"
+        },
+        {
+          "english": "confident",
+          "transcription": "/ˈkɒnfɪdənt/",
+          "russian": "уверенный в себе"
+        },
+        {
+          "english": "nervous",
+          "transcription": "/ˈnɜːvəs/",
+          "russian": "нервный / волнующийся"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Дом и квартира",
+      "words": [
+        {
+          "english": "apartment",
+          "transcription": "/əˈpɑːtmənt/",
+          "russian": "апартаменты"
+        },
+        {
+          "english": "ground floor",
+          "transcription": "/ɡraʊnd flɔː/",
+          "russian": "первый этаж"
+        },
+        {
+          "english": "lift",
+          "transcription": "/lɪft/",
+          "russian": "лифт"
+        },
+        {
+          "english": "roof",
+          "transcription": "/ruːf/",
+          "russian": "крыша"
+        },
+        {
+          "english": "armchair",
+          "transcription": "/ˈɑːmtʃeə/",
+          "russian": "кресло"
+        },
+        {
+          "english": "pillow",
+          "transcription": "/ˈpɪləʊ/",
+          "russian": "подушка"
+        },
+        {
+          "english": "blanket",
+          "transcription": "/ˈblæŋkɪt/",
+          "russian": "одеяло"
+        },
+        {
+          "english": "carpet",
+          "transcription": "/ˈkɑːpɪt/",
+          "russian": "ковёр"
+        },
+        {
+          "english": "curtain",
+          "transcription": "/ˈkɜːtn/",
+          "russian": "штора"
+        },
+        {
+          "english": "mirror",
+          "transcription": "/ˈmɪrə/",
+          "russian": "зеркало"
+        },
+        {
+          "english": "tap",
+          "transcription": "/tæp/",
+          "russian": "кран"
+        },
+        {
+          "english": "shower",
+          "transcription": "/ˈʃaʊə/",
+          "russian": "душ"
+        },
+        {
+          "english": "bath",
+          "transcription": "/bɑːθ/",
+          "russian": "ванна"
+        },
+        {
+          "english": "toilet",
+          "transcription": "/ˈtɔɪlət/",
+          "russian": "туалет"
+        },
+        {
+          "english": "oven",
+          "transcription": "/ˈʌvn/",
+          "russian": "духовка"
+        },
+        {
+          "english": "cooker",
+          "transcription": "/ˈkʊkə/",
+          "russian": "плита"
+        },
+        {
+          "english": "sink",
+          "transcription": "/sɪŋk/",
+          "russian": "раковина"
+        },
+        {
+          "english": "rent",
+          "transcription": "/rent/",
+          "russian": "снимать / аренда"
+        },
+        {
+          "english": "own",
+          "transcription": "/əʊn/",
+          "russian": "владеть / собственный"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Тело и здоровье",
+      "words": [
+        {
+          "english": "neck",
+          "transcription": "/nek/",
+          "russian": "шея"
+        },
+        {
+          "english": "finger",
+          "transcription": "/ˈfɪŋɡə/",
+          "russian": "палец"
+        },
+        {
+          "english": "chest",
+          "transcription": "/tʃest/",
+          "russian": "грудь"
+        },
+        {
+          "english": "knee",
+          "transcription": "/niː/",
+          "russian": "колено"
+        },
+        {
+          "english": "stomachache",
+          "transcription": "/ˈstʌməkeɪk/",
+          "russian": "боль в животе"
+        },
+        {
+          "english": "toothache",
+          "transcription": "/ˈtuːθeɪk/",
+          "russian": "зубная боль"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Хобби и развлечения",
+      "words": [
+        {
+          "english": "novel",
+          "transcription": "/ˈnɒvl/",
+          "russian": "роман (книга)"
+        },
+        {
+          "english": "running",
+          "transcription": "/ˈrʌnɪŋ/",
+          "russian": "бег"
+        },
+        {
+          "english": "fishing",
+          "transcription": "/ˈfɪʃɪŋ/",
+          "russian": "рыбалка"
+        },
+        {
+          "english": "cooking",
+          "transcription": "/ˈkʊkɪŋ/",
+          "russian": "готовка"
+        },
+        {
+          "english": "gardening",
+          "transcription": "/ˈɡɑːdnɪŋ/",
+          "russian": "садоводство"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Покупки",
+      "words": [
+        {
+          "english": "supermarket",
+          "transcription": "/ˈsuːpəmɑːkɪt/",
+          "russian": "супермаркет"
+        },
+        {
+          "english": "department store",
+          "transcription": "/dɪˈpɑːtmənt stɔː/",
+          "russian": "универмаг"
+        },
+        {
+          "english": "card",
+          "transcription": "/kɑːd/",
+          "russian": "карта"
+        },
+        {
+          "english": "afford",
+          "transcription": "/əˈfɔːd/",
+          "russian": "позволить себе"
+        },
+        {
+          "english": "try on",
+          "transcription": "/traɪ ɒn/",
+          "russian": "примерять"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "GO + предлоги (из урока)",
+      "words": [
+        {
+          "english": "go home",
+          "transcription": "/ɡəʊ həʊm/",
+          "russian": "идти домой"
+        },
+        {
+          "english": "go abroad",
+          "transcription": "/ɡəʊ əˈbrɔːd/",
+          "russian": "ехать за границу"
+        },
+        {
+          "english": "go swimming",
+          "transcription": "/ɡəʊ ˈswɪmɪŋ/",
+          "russian": "идти плавать"
+        },
+        {
+          "english": "go to school",
+          "transcription": "/ɡəʊ tə skuːl/",
+          "russian": "идти в школу"
+        },
+        {
+          "english": "go to the park",
+          "transcription": "/ɡəʊ tə ðə pɑːk/",
+          "russian": "идти в парк"
+        },
+        {
+          "english": "go to the bank",
+          "transcription": "/ɡəʊ tə ðə bæŋk/",
+          "russian": "идти в банк"
+        },
+        {
+          "english": "go to a party",
+          "transcription": "/ɡəʊ tə ə ˈpɑːti/",
+          "russian": "идти на вечеринку"
+        },
+        {
+          "english": "go to a concert",
+          "transcription": "/ɡəʊ tə ə ˈkɒnsət/",
+          "russian": "идти на концерт"
+        },
+        {
+          "english": "go on holiday",
+          "transcription": "/ɡəʊ ɒn ˈhɒlɪdeɪ/",
+          "russian": "ехать в отпуск"
+        },
+        {
+          "english": "go on a trip",
+          "transcription": "/ɡəʊ ɒn ə trɪp/",
+          "russian": "ехать в поездку"
+        },
+        {
+          "english": "go for a walk",
+          "transcription": "/ɡəʊ fɔː ə wɔːk/",
+          "russian": "идти на прогулку"
+        },
+        {
+          "english": "go for a run",
+          "transcription": "/ɡəʊ fɔː ə rʌn/",
+          "russian": "идти на пробежку"
+        },
+        {
+          "english": "go for a coffee",
+          "transcription": "/ɡəʊ fɔː ə ˈkɒfi/",
+          "russian": "выпить кофе"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Полезные фразы и выражения",
+      "words": [
+        {
+          "english": "I'd like to",
+          "transcription": "/aɪd laɪk tuː/",
+          "russian": "Я бы хотел"
+        },
+        {
+          "english": "Would you like to?",
+          "transcription": "/wʊd juː laɪk tuː/",
+          "russian": "Хотели бы вы?"
+        },
+        {
+          "english": "as soon as",
+          "transcription": "/æz suːn æz/",
+          "russian": "сразу как только"
+        },
+        {
+          "english": "in advance",
+          "transcription": "/ɪn ədˈvɑːns/",
+          "russian": "заранее"
+        },
+        {
+          "english": "at first",
+          "transcription": "/æt fɜːst/",
+          "russian": "сначала"
+        },
+        {
+          "english": "in the end",
+          "transcription": "/ɪn ðə end/",
+          "russian": "в конце концов"
+        },
+        {
+          "english": "by the way",
+          "transcription": "/baɪ ðə weɪ/",
+          "russian": "кстати"
+        },
+        {
+          "english": "for example",
+          "transcription": "/fɔːr ɪɡˈzɑːmpl/",
+          "russian": "например"
+        },
+        {
+          "english": "such as",
+          "transcription": "/sʌtʃ æz/",
+          "russian": "такой как / например"
+        },
+        {
+          "english": "to be honest",
+          "transcription": "/tuː biː ˈɒnɪst/",
+          "russian": "честно говоря"
+        },
+        {
+          "english": "I mean",
+          "transcription": "/aɪ miːn/",
+          "russian": "я имею в виду"
+        },
+        {
+          "english": "you know",
+          "transcription": "/juː nəʊ/",
+          "russian": "ты знаешь / знаешь ли"
+        },
+        {
+          "english": "basically",
+          "transcription": "/ˈbeɪsɪkli/",
+          "russian": "в основном / по сути"
+        },
+        {
+          "english": "obviously",
+          "transcription": "/ˈɒbviəsli/",
+          "russian": "очевидно"
+        },
+        {
+          "english": "definitely",
+          "transcription": "/ˈdefɪnətli/",
+          "russian": "определённо"
+        },
+        {
+          "english": "somehow",
+          "transcription": "/ˈsʌmhaʊ/",
+          "russian": "каким-то образом"
+        },
+        {
+          "english": "anyway",
+          "transcription": "/ˈeniweɪ/",
+          "russian": "в любом случае / ладно"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Неправильные глаголы — все три формы",
+      "words": [
+        {
+          "english": "be — was/were — been",
+          "transcription": "/biː — wɒz/wɜː — biːn/",
+          "russian": "быть"
+        },
+        {
+          "english": "become — became — become",
+          "transcription": "/bɪˈkʌm — bɪˈkeɪm — bɪˈkʌm/",
+          "russian": "становиться"
+        },
+        {
+          "english": "begin — began — begun",
+          "transcription": "/bɪˈɡɪn — bɪˈɡæn — bɪˈɡʌn/",
+          "russian": "начинать"
+        },
+        {
+          "english": "break — broke — broken",
+          "transcription": "/breɪk — brəʊk — ˈbrəʊkən/",
+          "russian": "ломать"
+        },
+        {
+          "english": "bring — brought — brought",
+          "transcription": "/brɪŋ — brɔːt — brɔːt/",
+          "russian": "приносить"
+        },
+        {
+          "english": "build — built — built",
+          "transcription": "/bɪld — bɪlt — bɪlt/",
+          "russian": "строить"
+        },
+        {
+          "english": "buy — bought — bought",
+          "transcription": "/baɪ — bɔːt — bɔːt/",
+          "russian": "покупать"
+        },
+        {
+          "english": "catch — caught — caught",
+          "transcription": "/kætʃ — kɔːt — kɔːt/",
+          "russian": "ловить"
+        },
+        {
+          "english": "choose — chose — chosen",
+          "transcription": "/tʃuːz — tʃəʊz — ˈtʃəʊzən/",
+          "russian": "выбирать"
+        },
+        {
+          "english": "come — came — come",
+          "transcription": "/kʌm — keɪm — kʌm/",
+          "russian": "приходить"
+        },
+        {
+          "english": "cut — cut — cut",
+          "transcription": "/kʌt — kʌt — kʌt/",
+          "russian": "резать"
+        },
+        {
+          "english": "do — did — done",
+          "transcription": "/duː — dɪd — dʌn/",
+          "russian": "делать"
+        },
+        {
+          "english": "draw — drew — drawn",
+          "transcription": "/drɔː — druː — drɔːn/",
+          "russian": "рисовать"
+        },
+        {
+          "english": "drink — drank — drunk",
+          "transcription": "/drɪŋk — dræŋk — drʌŋk/",
+          "russian": "пить"
+        },
+        {
+          "english": "drive — drove — driven",
+          "transcription": "/draɪv — drəʊv — ˈdrɪvən/",
+          "russian": "водить"
+        },
+        {
+          "english": "eat — ate — eaten",
+          "transcription": "/iːt — eɪt — ˈiːtn/",
+          "russian": "есть / кушать"
+        },
+        {
+          "english": "fall — fell — fallen",
+          "transcription": "/fɔːl — fel — ˈfɔːlən/",
+          "russian": "падать"
+        },
+        {
+          "english": "feel — felt — felt",
+          "transcription": "/fiːl — felt — felt/",
+          "russian": "чувствовать"
+        },
+        {
+          "english": "find — found — found",
+          "transcription": "/faɪnd — faʊnd — faʊnd/",
+          "russian": "находить"
+        },
+        {
+          "english": "fly — flew — flown",
+          "transcription": "/flaɪ — fluː — fləʊn/",
+          "russian": "лететь"
+        },
+        {
+          "english": "forget — forgot — forgotten",
+          "transcription": "/fəˈɡet — fəˈɡɒt — fəˈɡɒtn/",
+          "russian": "забывать"
+        },
+        {
+          "english": "get — got — got",
+          "transcription": "/ɡet — ɡɒt — ɡɒt/",
+          "russian": "получать / становиться"
+        },
+        {
+          "english": "give — gave — given",
+          "transcription": "/ɡɪv — ɡeɪv — ˈɡɪvən/",
+          "russian": "давать"
+        },
+        {
+          "english": "go — went — gone",
+          "transcription": "/ɡəʊ — went — ɡɒn/",
+          "russian": "идти / ехать"
+        },
+        {
+          "english": "grow — grew — grown",
+          "transcription": "/ɡrəʊ — ɡruː — ɡrəʊn/",
+          "russian": "расти"
+        },
+        {
+          "english": "have — had — had",
+          "transcription": "/hæv — hæd — hæd/",
+          "russian": "иметь"
+        },
+        {
+          "english": "hear — heard — heard",
+          "transcription": "/hɪə — hɜːd — hɜːd/",
+          "russian": "слышать"
+        },
+        {
+          "english": "hold — held — held",
+          "transcription": "/həʊld — held — held/",
+          "russian": "держать"
+        },
+        {
+          "english": "keep — kept — kept",
+          "transcription": "/kiːp — kept — kept/",
+          "russian": "хранить / держать"
+        },
+        {
+          "english": "know — knew — known",
+          "transcription": "/nəʊ — njuː — nəʊn/",
+          "russian": "знать"
+        },
+        {
+          "english": "leave — left — left",
+          "transcription": "/liːv — left — left/",
+          "russian": "уходить / оставлять"
+        },
+        {
+          "english": "lose — lost — lost",
+          "transcription": "/luːz — lɒst — lɒst/",
+          "russian": "терять"
+        },
+        {
+          "english": "make — made — made",
+          "transcription": "/meɪk — meɪd — meɪd/",
+          "russian": "делать / создавать"
+        },
+        {
+          "english": "mean — meant — meant",
+          "transcription": "/miːn — ment — ment/",
+          "russian": "означать"
+        },
+        {
+          "english": "meet — met — met",
+          "transcription": "/miːt — met — met/",
+          "russian": "встречать"
+        },
+        {
+          "english": "pay — paid — paid",
+          "transcription": "/peɪ — peɪd — peɪd/",
+          "russian": "платить"
+        },
+        {
+          "english": "put — put — put",
+          "transcription": "/pʊt — pʊt — pʊt/",
+          "russian": "класть / ставить"
+        },
+        {
+          "english": "read — read — read",
+          "transcription": "/riːd — red — red/",
+          "russian": "читать"
+        },
+        {
+          "english": "run — ran — run",
+          "transcription": "/rʌn — ræn — rʌn/",
+          "russian": "бежать"
+        },
+        {
+          "english": "say — said — said",
+          "transcription": "/seɪ — sed — sed/",
+          "russian": "говорить / сказать"
+        },
+        {
+          "english": "see — saw — seen",
+          "transcription": "/siː — sɔː — siːn/",
+          "russian": "видеть"
+        },
+        {
+          "english": "send — sent — sent",
+          "transcription": "/send — sent — sent/",
+          "russian": "отправлять"
+        },
+        {
+          "english": "sit — sat — sat",
+          "transcription": "/sɪt — sæt — sæt/",
+          "russian": "сидеть"
+        },
+        {
+          "english": "sleep — slept — slept",
+          "transcription": "/sliːp — slept — slept/",
+          "russian": "спать"
+        },
+        {
+          "english": "speak — spoke — spoken",
+          "transcription": "/spiːk — spəʊk — ˈspəʊkən/",
+          "russian": "говорить"
+        },
+        {
+          "english": "spend — spent — spent",
+          "transcription": "/spend — spent — spent/",
+          "russian": "тратить"
+        },
+        {
+          "english": "stand — stood — stood",
+          "transcription": "/stænd — stʊd — stʊd/",
+          "russian": "стоять"
+        },
+        {
+          "english": "steal — stole — stolen",
+          "transcription": "/stiːl — stəʊl — ˈstəʊlən/",
+          "russian": "красть"
+        },
+        {
+          "english": "swim — swam — swum",
+          "transcription": "/swɪm — swæm — swʌm/",
+          "russian": "плавать"
+        },
+        {
+          "english": "take — took — taken",
+          "transcription": "/teɪk — tʊk — ˈteɪkən/",
+          "russian": "брать"
+        },
+        {
+          "english": "teach — taught — taught",
+          "transcription": "/tiːtʃ — tɔːt — tɔːt/",
+          "russian": "учить"
+        },
+        {
+          "english": "tell — told — told",
+          "transcription": "/tel — təʊld — təʊld/",
+          "russian": "рассказывать"
+        },
+        {
+          "english": "think — thought — thought",
+          "transcription": "/θɪŋk — θɔːt — θɔːt/",
+          "russian": "думать"
+        },
+        {
+          "english": "understand — understood",
+          "transcription": "/ˌʌndəˈstænd — ˌʌndəˈstʊd/",
+          "russian": "понимать"
+        },
+        {
+          "english": "wake up — woke up — woken",
+          "transcription": "/weɪk ʌp — wəʊk ʌp — ˈwəʊkən/",
+          "russian": "просыпаться"
+        },
+        {
+          "english": "wear — wore — worn",
+          "transcription": "/weə — wɔː — wɔːn/",
+          "russian": "носить (одежду)"
+        },
+        {
+          "english": "win — won — won",
+          "transcription": "/wɪn — wʌn — wʌn/",
+          "russian": "побеждать"
+        },
+        {
+          "english": "write — wrote — written",
+          "transcription": "/raɪt — rəʊt — ˈrɪtn/",
+          "russian": "писать"
+        }
+      ]
+    }
+  ]
+}
