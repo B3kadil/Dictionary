@@ -26,7 +26,7 @@ export default function HomeScreen({ categories, totalWords, progress, srsData, 
   return (
     <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #0f2340 0%, #1A365D 50%, #1e3a5f 100%)' }}>
       {/* Header */}
-      <div className="sticky top-0 z-10 px-4 pt-6 pb-4 backdrop-blur-sm" style={{ background: 'rgba(15, 35, 64, 0.85)' }}>
+      <div className="px-4 pt-6 pb-4">
         <div className="max-w-2xl mx-auto">
           <div className="flex items-center justify-between mb-4">
             <div>
