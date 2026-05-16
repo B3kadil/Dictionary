@@ -16,6 +16,16 @@ interface QuizQuestion {
 }
 
 type Phase = 'setup' | 'playing' | 'done';
+type QuizMode = 'choice' | 'type';
+
+function speak(text: string) {
+  if (!('speechSynthesis' in window)) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.85;
+  window.speechSynthesis.speak(u);
+}
 
 function buildQuestions(
   categories: Category[],
@@ -61,7 +71,7 @@ function buildQuestions(
   });
 }
 
-// ─── Setup ──────────────────────────────────────────────────────────────────
+// ─── Setup ───────────────────────────────────────────────────────────────────
 
 interface SetupProps {
   categories: Category[];
@@ -70,17 +80,24 @@ interface SetupProps {
   count: number;
   setCount: (n: number) => void;
   maxCount: number;
+  mode: QuizMode;
+  setMode: (m: QuizMode) => void;
+  timerSec: number;
+  setTimerSec: (s: number) => void;
   onStart: () => void;
   onBack: () => void;
 }
 
-function SetupView({ categories, catId, setCatId, count, setCount, maxCount, onStart, onBack }: SetupProps) {
+function SetupView({
+  categories, catId, setCatId, count, setCount, maxCount,
+  mode, setMode, timerSec, setTimerSec, onStart, onBack,
+}: SetupProps) {
   const presets = [10, 20, 50].filter(n => n <= maxCount);
   if (!presets.includes(maxCount)) presets.push(maxCount);
 
   return (
     <div className="min-h-screen flex flex-col" style={{ background: 'linear-gradient(135deg, #0f2340 0%, #1A365D 100%)' }}>
-      <div className="px-4 pt-6 pb-4 max-w-lg mx-auto w-full">
+      <div className="px-4 pt-6 pb-8 max-w-lg mx-auto w-full">
         <div className="flex items-center gap-3 mb-8">
           <button onClick={onBack} className="text-white/60 hover:text-white transition-colors">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -110,11 +127,49 @@ function SetupView({ categories, catId, setCatId, count, setCount, maxCount, onS
           </div>
         </div>
 
+        {/* Answer mode */}
+        <div className="mb-6">
+          <label className="text-white/60 text-sm font-medium mb-2 block">Режим ответа</label>
+          <div className="grid grid-cols-2 gap-2">
+            {(['choice', 'type'] as QuizMode[]).map(m => (
+              <button
+                key={m}
+                onClick={() => setMode(m)}
+                className={`py-3 rounded-xl text-sm font-semibold transition-all ${
+                  mode === m
+                    ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/30'
+                    : 'bg-white/10 text-white/60 hover:bg-white/15'
+                }`}
+              >
+                {m === 'choice' ? '4 варианта' : 'Ввод текста'}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Timer */}
+        <div className="mb-6">
+          <label className="text-white/60 text-sm font-medium mb-2 block">Таймер</label>
+          <div className="flex gap-2">
+            {[0, 5, 10, 15].map(s => (
+              <button
+                key={s}
+                onClick={() => setTimerSec(s)}
+                className={`flex-1 py-3 rounded-xl text-sm font-semibold transition-all ${
+                  timerSec === s
+                    ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/30'
+                    : 'bg-white/10 text-white/60 hover:bg-white/15'
+                }`}
+              >
+                {s === 0 ? 'Выкл' : `${s}с`}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Question count */}
         <div className="mb-8">
-          <label className="text-white/60 text-sm font-medium mb-2 block">
-            Количество вопросов
-          </label>
+          <label className="text-white/60 text-sm font-medium mb-2 block">Количество вопросов</label>
           <div className="flex gap-2">
             {presets.map(n => (
               <button
@@ -132,14 +187,6 @@ function SetupView({ categories, catId, setCatId, count, setCount, maxCount, onS
           </div>
         </div>
 
-        {/* Info card */}
-        <div className="bg-white/5 border border-white/8 rounded-2xl p-4 mb-8">
-          <p className="text-white/50 text-sm leading-relaxed">
-            Будет показано английское слово — нужно выбрать правильный перевод из 4 вариантов.
-          </p>
-        </div>
-
-        {/* Start button */}
         <button
           onClick={onStart}
           className="w-full py-4 rounded-2xl font-bold text-white text-lg transition-all active:scale-95 hover:scale-[1.01]"
@@ -163,25 +210,47 @@ interface PlayingProps {
   total: number;
   score: number;
   selected: number | null;
+  mode: QuizMode;
+  timerSec: number;
+  typedValue: string;
+  onTypedChange: (v: string) => void;
   onAnswer: (idx: number) => void;
+  onTypedSubmit: () => void;
   onBack: () => void;
 }
 
-function PlayingView({ question, current, total, score, selected, onAnswer, onBack }: PlayingProps) {
+function PlayingView({
+  question, current, total, score, selected, mode, timerSec,
+  typedValue, onTypedChange, onAnswer, onTypedSubmit, onBack,
+}: PlayingProps) {
+  const [timeLeft, setTimeLeft] = useState(timerSec);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    setTimeLeft(timerSec);
+    if (mode === 'type') setTimeout(() => inputRef.current?.focus(), 50);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [current]);
+
+  useEffect(() => {
+    if (timerSec === 0 || selected !== null) return;
+    if (timeLeft <= 0) { onAnswer(-1); return; }
+    const id = setTimeout(() => setTimeLeft(t => t - 1), 1000);
+    return () => clearTimeout(id);
+  }, [timeLeft, timerSec, selected, onAnswer]);
+
   const percent = Math.round((current / total) * 100);
+  const timerRatio = timerSec > 0 ? timeLeft / timerSec : 1;
+  const timerColor = timerRatio > 0.5 ? '#93c5fd' : timerRatio > 0.25 ? '#fbbf24' : '#f87171';
 
   const btnStyle = (idx: number) => {
-    if (selected === null) {
-      return 'bg-white/10 border-white/10 text-white hover:bg-white/15 active:scale-95';
-    }
-    if (idx === question.correctIndex) {
-      return 'bg-green-600/80 border-green-500/60 text-white scale-[1.01]';
-    }
-    if (idx === selected) {
-      return 'bg-red-600/80 border-red-500/60 text-white';
-    }
+    if (selected === null) return 'bg-white/10 border-white/10 text-white hover:bg-white/15 active:scale-95';
+    if (idx === question.correctIndex) return 'bg-green-600/80 border-green-500/60 text-white scale-[1.01]';
+    if (idx === selected) return 'bg-red-600/80 border-red-500/60 text-white';
     return 'bg-white/5 border-white/5 text-white/30';
   };
+
+  const isCorrectTyped = selected !== null && selected === question.correctIndex;
 
   return (
     <div className="min-h-screen flex flex-col" style={{ background: 'linear-gradient(135deg, #0f2340 0%, #1A365D 100%)' }}>
@@ -195,6 +264,11 @@ function PlayingView({ question, current, total, score, selected, onAnswer, onBa
             Выйти
           </button>
           <div className="flex-1" />
+          {timerSec > 0 && selected === null && (
+            <span className="text-sm font-bold tabular-nums transition-colors" style={{ color: timerColor }}>
+              {timeLeft}с
+            </span>
+          )}
           <span className="text-white/50 text-sm tabular-nums">{current + 1} / {total}</span>
           <span
             className="ml-2 px-2.5 py-0.5 rounded-full text-sm font-semibold tabular-nums"
@@ -204,6 +278,14 @@ function PlayingView({ question, current, total, score, selected, onAnswer, onBa
           </span>
         </div>
         <ProgressBar percent={percent} height={4} />
+        {timerSec > 0 && (
+          <div className="mt-2 h-1 rounded-full bg-white/10 overflow-hidden">
+            <div
+              className="h-full rounded-full transition-[width] duration-1000 ease-linear"
+              style={{ width: `${timerRatio * 100}%`, background: timerColor }}
+            />
+          </div>
+        )}
       </div>
 
       {/* Question card */}
@@ -213,22 +295,67 @@ function PlayingView({ question, current, total, score, selected, onAnswer, onBa
           <h2 className="text-white text-3xl font-bold mb-2">{question.word.english}</h2>
           <p className="text-white/40 text-sm">{question.word.transcription}</p>
           <p className="text-white/25 text-xs mt-2">{question.catName}</p>
+          <button
+            onClick={() => speak(question.word.english)}
+            className="mt-3 text-white/30 hover:text-white/70 transition-colors p-1.5 rounded-lg hover:bg-white/10"
+            title="Произнести"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                d="M15.536 8.464a5 5 0 010 7.072M12 6v12m0 0l-3-3m3 3l3-3M6.343 6.343a8 8 0 000 11.314" />
+            </svg>
+          </button>
         </div>
 
-        {/* Options */}
-        <div className="grid grid-cols-1 gap-3">
-          {question.options.map((opt, idx) => (
-            <button
-              key={idx}
-              onClick={() => onAnswer(idx)}
+        {mode === 'choice' ? (
+          <div className="grid grid-cols-1 gap-3">
+            {question.options.map((opt, idx) => (
+              <button
+                key={idx}
+                onClick={() => onAnswer(idx)}
+                disabled={selected !== null}
+                className={`w-full py-4 px-5 rounded-2xl border text-left font-medium transition-all ${btnStyle(idx)}`}
+              >
+                <span className="text-white/40 text-sm mr-3">{String.fromCharCode(65 + idx)}.</span>
+                {opt}
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div className="space-y-3">
+            <input
+              ref={inputRef}
+              type="text"
+              value={typedValue}
+              onChange={e => onTypedChange(e.target.value)}
+              onKeyDown={e => { if (e.key === 'Enter' && selected === null && typedValue.trim()) onTypedSubmit(); }}
               disabled={selected !== null}
-              className={`w-full py-4 px-5 rounded-2xl border text-left font-medium transition-all ${btnStyle(idx)}`}
-            >
-              <span className="text-white/40 text-sm mr-3">{String.fromCharCode(65 + idx)}.</span>
-              {opt}
-            </button>
-          ))}
-        </div>
+              placeholder="Введи перевод на русском..."
+              className={`w-full px-5 py-4 rounded-2xl text-white text-base font-medium focus:outline-none transition-all border ${
+                selected === null
+                  ? 'bg-white/10 border-white/10 placeholder-white/30 focus:border-blue-400/50 focus:bg-white/15'
+                  : isCorrectTyped
+                  ? 'bg-green-600/30 border-green-500/50 text-green-200'
+                  : 'bg-red-600/30 border-red-500/50 text-red-200'
+              }`}
+            />
+            {selected !== null && !isCorrectTyped && (
+              <div className="px-4 py-3 rounded-2xl bg-green-600/20 border border-green-500/30 text-green-300 text-sm text-center">
+                Правильно: <span className="font-semibold">{question.options[question.correctIndex]}</span>
+              </div>
+            )}
+            {selected === null && (
+              <button
+                onClick={onTypedSubmit}
+                disabled={!typedValue.trim()}
+                className="w-full py-4 rounded-2xl font-semibold text-white transition-all active:scale-95 disabled:opacity-40"
+                style={{ background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', boxShadow: '0 4px 16px rgba(37,99,235,0.3)' }}
+              >
+                Проверить
+              </button>
+            )}
+          </div>
+        )}
       </div>
       <div className="pb-6" />
     </div>
@@ -242,11 +369,13 @@ interface DoneProps {
   total: number;
   questions: QuizQuestion[];
   userAnswers: number[];
+  typedInputs: string[];
+  mode: QuizMode;
   onRetry: () => void;
   onHome: () => void;
 }
 
-function DoneView({ score, total, questions, userAnswers, onRetry, onHome }: DoneProps) {
+function DoneView({ score, total, questions, userAnswers, typedInputs, mode, onRetry, onHome }: DoneProps) {
   const percent = Math.round((score / total) * 100);
   const grade =
     percent >= 90 ? { emoji: '🏆', label: 'Отлично!', color: '#22c55e' } :
@@ -255,13 +384,17 @@ function DoneView({ score, total, questions, userAnswers, onRetry, onHome }: Don
                     { emoji: '💪', label: 'Нужно повторить', color: '#ef4444' };
 
   const wrong = questions
-    .map((q, i) => ({ q, userIdx: userAnswers[i] }))
+    .map((q, i) => ({ q, userIdx: userAnswers[i], typed: typedInputs[i] ?? '' }))
     .filter(({ q, userIdx }) => userIdx !== q.correctIndex);
+
+  const wrongLabel = (q: QuizQuestion, userIdx: number, typed: string) => {
+    if (userIdx === -1) return typed || 'Время вышло';
+    return mode === 'type' ? typed : q.options[userIdx] ?? '—';
+  };
 
   return (
     <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #0f2340 0%, #1A365D 100%)' }}>
       <div className="px-4 pt-8 pb-10 max-w-lg mx-auto">
-        {/* Score card */}
         <div
           className="rounded-3xl p-6 mb-6 text-center border border-white/10"
           style={{ background: 'rgba(255,255,255,0.06)' }}
@@ -272,7 +405,6 @@ function DoneView({ score, total, questions, userAnswers, onRetry, onHome }: Don
           <div className="text-white/40 text-sm">{percent}% правильных ответов</div>
         </div>
 
-        {/* Buttons */}
         <div className="flex gap-3 mb-6">
           <button
             onClick={onRetry}
@@ -289,18 +421,15 @@ function DoneView({ score, total, questions, userAnswers, onRetry, onHome }: Don
           </button>
         </div>
 
-        {/* Wrong answers */}
         {wrong.length > 0 && (
           <div className="bg-white/5 border border-white/8 rounded-2xl p-4">
-            <h3 className="text-white/60 text-sm font-semibold mb-3">
-              Ошибки ({wrong.length})
-            </h3>
+            <h3 className="text-white/60 text-sm font-semibold mb-3">Ошибки ({wrong.length})</h3>
             <div className="space-y-3">
-              {wrong.map(({ q, userIdx }, i) => (
+              {wrong.map(({ q, userIdx, typed }, i) => (
                 <div key={i} className="border-b border-white/5 last:border-0 pb-3 last:pb-0">
                   <div className="text-white text-sm font-medium mb-1">{q.word.english}</div>
                   <div className="flex gap-2 text-xs">
-                    <span className="text-red-400 line-through">{q.options[userIdx]}</span>
+                    <span className="text-red-400 line-through">{wrongLabel(q, userIdx, typed)}</span>
                     <span className="text-white/30">→</span>
                     <span className="text-green-400">{q.options[q.correctIndex]}</span>
                   </div>
@@ -310,26 +439,28 @@ function DoneView({ score, total, questions, userAnswers, onRetry, onHome }: Don
           </div>
         )}
         {wrong.length === 0 && (
-          <div className="text-center py-4 text-white/30 text-sm">
-            Все ответы верны!
-          </div>
+          <div className="text-center py-4 text-white/30 text-sm">Все ответы верны!</div>
         )}
       </div>
     </div>
   );
 }
 
-// ─── Main ────────────────────────────────────────────────────────────────────
+// ─── Main ─────────────────────────────────────────────────────────────────────
 
-export default function QuizScreen({ categories, progress, onNavigate }: Props) {
+export default function QuizScreen({ categories, onNavigate }: Props) {
   const [phase, setPhase] = useState<Phase>('setup');
   const [catId, setCatId] = useState<number | null>(null);
   const [count, setCount] = useState(10);
+  const [mode, setMode] = useState<QuizMode>('choice');
+  const [timerSec, setTimerSec] = useState(0);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [score, setScore] = useState(0);
   const [userAnswers, setUserAnswers] = useState<number[]>([]);
+  const [typedInputs, setTypedInputs] = useState<string[]>([]);
+  const [typedValue, setTypedValue] = useState('');
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const maxCount = useMemo(() => {
@@ -353,13 +484,15 @@ export default function QuizScreen({ categories, progress, onNavigate }: Props) 
     setScore(0);
     setSelected(null);
     setUserAnswers([]);
+    setTypedInputs([]);
+    setTypedValue('');
     setPhase('playing');
   }, [categories, catId, count]);
 
   const handleAnswer = useCallback((idx: number) => {
     if (selected !== null) return;
     setSelected(idx);
-    const isCorrect = idx === questions[current].correctIndex;
+    const isCorrect = idx !== -1 && idx === questions[current].correctIndex;
     if (isCorrect) setScore(s => s + 1);
     setUserAnswers(a => [...a, idx]);
 
@@ -369,9 +502,18 @@ export default function QuizScreen({ categories, progress, onNavigate }: Props) 
       } else {
         setCurrent(c => c + 1);
         setSelected(null);
+        setTypedValue('');
       }
     }, 900);
   }, [selected, questions, current]);
+
+  const handleTypedSubmit = useCallback(() => {
+    if (!typedValue.trim() || selected !== null) return;
+    const correct = questions[current].options[questions[current].correctIndex];
+    const isCorrect = typedValue.trim().toLowerCase() === correct.toLowerCase();
+    setTypedInputs(t => [...t, typedValue.trim()]);
+    handleAnswer(isCorrect ? questions[current].correctIndex : -1);
+  }, [typedValue, selected, questions, current, handleAnswer]);
 
   if (phase === 'setup') {
     return (
@@ -382,6 +524,10 @@ export default function QuizScreen({ categories, progress, onNavigate }: Props) 
         count={count}
         setCount={setCount}
         maxCount={maxCount}
+        mode={mode}
+        setMode={setMode}
+        timerSec={timerSec}
+        setTimerSec={setTimerSec}
         onStart={startQuiz}
         onBack={() => onNavigate({ type: 'home' })}
       />
@@ -396,7 +542,12 @@ export default function QuizScreen({ categories, progress, onNavigate }: Props) 
         total={questions.length}
         score={score}
         selected={selected}
+        mode={mode}
+        timerSec={timerSec}
+        typedValue={typedValue}
+        onTypedChange={setTypedValue}
         onAnswer={handleAnswer}
+        onTypedSubmit={handleTypedSubmit}
         onBack={() => { if (timerRef.current) clearTimeout(timerRef.current); setPhase('setup'); }}
       />
     );
@@ -408,6 +559,8 @@ export default function QuizScreen({ categories, progress, onNavigate }: Props) 
       total={questions.length}
       questions={questions}
       userAnswers={userAnswers}
+      typedInputs={typedInputs}
+      mode={mode}
       onRetry={startQuiz}
       onHome={() => onNavigate({ type: 'home' })}
     />
