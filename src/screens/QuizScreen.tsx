@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import { Category, Progress, Screen, Word } from '../types';
 import ProgressBar from '../components/ProgressBar';
+import { speak } from '../utils/speak';
 
 interface Props {
   categories: Category[];
@@ -17,15 +18,6 @@ interface QuizQuestion {
 
 type Phase = 'setup' | 'playing' | 'done';
 type QuizMode = 'choice' | 'type';
-
-function speak(text: string) {
-  if (!('speechSynthesis' in window)) return;
-  window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = 'en-US';
-  u.rate = 0.85;
-  window.speechSynthesis.speak(u);
-}
 
 function buildQuestions(
   categories: Category[],

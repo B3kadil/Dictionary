@@ -1,20 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Word } from '../types';
+import { speak } from '../utils/speak';
 
 interface Props {
   word: Word;
   reversed: boolean;
   onFlip?: (isFlipped: boolean) => void;
   animationKey: number;
-}
-
-function speak(text: string, lang: string) {
-  if (!window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = lang;
-  u.rate = 0.85;
-  window.speechSynthesis.speak(u);
 }
 
 export default function Flashcard({ word, reversed, onFlip, animationKey }: Props) {
